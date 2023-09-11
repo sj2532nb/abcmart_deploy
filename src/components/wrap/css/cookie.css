@@ -1,0 +1,42 @@
+#wrap {
+  width: 100%;
+  position: relative;
+}
+#wrap #cookie {
+  position: absolute;
+  z-index: 10;
+  top: 400px;
+  left: 200px;
+  width: 420px;
+  height: 415px;
+}
+#wrap #cookie .container {
+  width: 100%;
+}
+#wrap #cookie .container .cookie-box {
+  display: block;
+  width: 100%;
+}
+#wrap #cookie .container .cookie-box img {
+  width: 100%;
+  height: 380px;
+}
+#wrap #cookie .container .close-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  width: 100%;
+  height: 35px;
+  background: #aaa;
+}
+#wrap #cookie .container .close-box .oneday-close {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+#wrap #cookie .container .close-box .close {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}

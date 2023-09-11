@@ -1,0 +1,31 @@
+{
+    "plus_pick":[
+        {"no":16, "src":"./img/intro/intro_sec7_slide16.jpg", "title":"남성 샌들 고민 여기서 해결해볼까요?", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":17, "src":"./img/intro/intro_sec7_slide17.jpg", "title":"마이애미프로젝트의 특별한 캐주얼 슈즈", "info":"", "start_price":"", "discount_rate":"61"},
+        {"no":18, "src":"./img/intro/intro_sec7_slide18.jpg", "title":"캐주얼&모던 매드마르스가 다 하잖아요~", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":19, "src":"./img/intro/intro_sec7_slide19.jpg", "title":"바캉스에 빠질 수 없는 아이웨어", "info":"", "start_price":"", "discount_rate":"45"},
+        {"no":1, "src":"./img/intro/intro_sec7_slide1.jpg", "title":"무더위 대비, JEEP와 함께 해볼까요?", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":2, "src":"./img/intro/intro_sec7_slide2.jpg", "title":"컨버스 척 70 30% OFF!", "info":"", "start_price":"", "discount_rate":"30"},
+        {"no":3, "src":"./img/intro/intro_sec7_slide3.jpg", "title":"여름에도 놓칠 수 없는 클래식 스타일", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":4, "src":"./img/intro/intro_sec7_slide4.jpg", "title":"BEST SELLER 퀵슬라이드2 균일가전!", "info":"", "start_price":"29,900", "discount_rate":""},
+        {"no":5, "src":"./img/intro/intro_sec7_slide5.jpg", "title":"편한 옷에 발엔 플립 플랍!", "info":"", "start_price":"", "discount_rate":"62"},
+        {"no":6, "src":"./img/intro/intro_sec7_slide6.png", "title":"기능에 스타일까지 더했으니까요", "info":"", "start_price":"44,500", "discount_rate":""},
+        {"no":7, "src":"./img/intro/intro_sec7_slide7.jpg", "title":"나의 HIP 지수는 몇 점?", "info":"", "start_price":"", "discount_rate":"20"},
+        {"no":8, "src":"./img/intro/intro_sec7_slide8.jpg", "title":"가성비 좋은 티셔츠를 찾고 계신가요?", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":9, "src":"./img/intro/intro_sec7_slide9.jpg", "title":"미니멀한 스타일을 완성하는 슈즈 포인트", "info":"", "start_price":"", "discount_rate":"52"},
+        {"no":10, "src":"./img/intro/intro_sec7_slide10.jpg", "title":"제이다울의 부드러운 무드로 여름을 채워볼까요?", "info":"", "start_price":"", "discount_rate":"62"},
+        {"no":11, "src":"./img/intro/intro_sec7_slide11.jpg", "title":"밸롭의 기분좋은 편안함", "info":"", "start_price":"", "discount_rate":"60"},
+        {"no":12, "src":"./img/intro/intro_sec7_slide12.jpg", "title":"에이디오 시즌 맞이 클리어런스 세일!", "info":"", "start_price":"", "discount_rate":"72"},
+        {"no":13, "src":"./img/intro/intro_sec7_slide13.jpg", "title":"어디든지 여행같은 기분으로", "info":"EARTHUS 얼리 썸머 세일", "start_price":"", "discount_rate":""},
+        {"no":14, "src":"./img/intro/intro_sec7_slide14.jpg", "title":"앨빈클로와 함께 가성비 여름 대비 시작!", "info":"", "start_price":"", "discount_rate":"75"},
+        {"no":15, "src":"./img/intro/intro_sec7_slide15.jpg", "title":"슬슬 물놀이 준비하셔야죠?", "info":"", "start_price":"", "discount_rate":"48"},
+        {"no":16, "src":"./img/intro/intro_sec7_slide16.jpg", "title":"남성 샌들 고민 여기서 해결해볼까요?", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":17, "src":"./img/intro/intro_sec7_slide17.jpg", "title":"마이애미프로젝트의 특별한 캐주얼 슈즈", "info":"", "start_price":"", "discount_rate":"61"},
+        {"no":18, "src":"./img/intro/intro_sec7_slide18.jpg", "title":"캐주얼&모던 매드마르스가 다 하잖아요~", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":19, "src":"./img/intro/intro_sec7_slide19.jpg", "title":"바캉스에 빠질 수 없는 아이웨어", "info":"", "start_price":"", "discount_rate":"45"},
+        {"no":1, "src":"./img/intro/intro_sec7_slide1.jpg", "title":"무더위 대비, JEEP와 함께 해볼까요?", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":2, "src":"./img/intro/intro_sec7_slide2.jpg", "title":"컨버스 척 70 30% OFF!", "info":"", "start_price":"", "discount_rate":"30"},
+        {"no":3, "src":"./img/intro/intro_sec7_slide3.jpg", "title":"여름에도 놓칠 수 없는 클래식 스타일", "info":"", "start_price":"", "discount_rate":"50"},
+        {"no":4, "src":"./img/intro/intro_sec7_slide4.jpg", "title":"BEST SELLER 퀵슬라이드2 균일가전!", "info":"", "start_price":"29,900", "discount_rate":""}
+    ]
+}

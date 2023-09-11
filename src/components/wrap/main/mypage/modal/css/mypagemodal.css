@@ -1,0 +1,111 @@
+#mypageModal {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#mypageModal .modal-container {
+  position: absolute;
+  top: calc(50% - 240px);
+  left: calc(50% - 300px);
+  width: 600px;
+  background: #fff;
+  border-radius: 15px;
+}
+#mypageModal .modal-container .modal-gap {
+  padding: 0 29px;
+  width: 100%;
+}
+#mypageModal .modal-container .modal-gap .modal-title {
+  padding: 29px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+}
+#mypageModal .modal-container .modal-gap .modal-title h1 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+}
+#mypageModal .modal-container .modal-gap .modal-title button {
+  width: 19px;
+  height: 19px;
+  background: url(../../../../../../../public/img/mypage/dialog_icon_btn_close.png) no-repeat 50% 50%;
+  border: 0;
+}
+#mypageModal .modal-container .modal-gap .modal-content {
+  padding: 60px 0 20px 0;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap {
+  padding: 112px 0 40px 0;
+  position: relative;
+  text-align: center;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #d5d5d5;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: url(../../../../../../../public/img/mypage/mypage_icon_profile_nor.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap span img {
+  width: 100%;
+  height: 100%;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap h3 {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap h4 {
+  margin: 14px 0;
+  font-size: 14px;
+  color: #999;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap button {
+  width: 130px;
+  height: 30px;
+  border: 0;
+  border: 1px solid #666;
+  font-size: 12px;
+  margin: 0 12px 0 0;
+  background: none;
+  color: #666;
+  font-weight: 700;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 30px;
+  background: #666;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+#mypageModal .modal-container .modal-gap .modal-content .content-gap label input {
+  width: 0;
+}
+#mypageModal .modal-container .modal-gap .modal-bottom {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #b5b5b5;
+}
+#mypageModal .modal-container .modal-gap .modal-bottom button {
+  width: 88px;
+  height: 42px;
+  border: 0;
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+}

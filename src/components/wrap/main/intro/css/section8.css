@@ -1,0 +1,242 @@
+#section8 {
+  width: 100%;
+}
+#section8 .container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+#section8 .container .gap {
+  width: 100%;
+  margin: 100px 0 0 0;
+}
+#section8 .container .gap .title {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 35px 0;
+  font-family: "Montserrat";
+}
+#section8 .container .gap .title h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+#section8 .container .gap .content {
+  width: 100%;
+  position: relative;
+}
+#section8 .container .gap .content .category-btn-box {
+  width: 1200px;
+  z-index: 3;
+  position: absolute;
+  top: 160px;
+  left: 30%;
+}
+#section8 .container .gap .content .category-btn-box .category-btn {
+  display: inline-block;
+  height: 28px;
+  margin: 0 0 0 35px;
+  opacity: 0.4;
+  position: relative;
+}
+#section8 .container .gap .content .category-btn-box .category-btn::after {
+  position: absolute;
+  bottom: -7px;
+  left: 35%;
+  content: "";
+  width: 20px;
+  height: 4px;
+  background: transparent;
+  transition: all 0.3s;
+  transform: scale(0);
+}
+#section8 .container .gap .content .category-btn-box .category-btn.on {
+  font-weight: 600;
+  opacity: 1;
+}
+#section8 .container .gap .content .category-btn-box .category-btn.on::after {
+  transform: scale(1);
+  background: #fff;
+}
+#section8 .container .gap .content .category-btn-box .category-btn:first-child {
+  margin: 0;
+}
+#section8 .container .gap .content .category-btn-box .category-btn a {
+  font-size: 17px;
+  color: #fff;
+  font-family: "Montserrat";
+}
+#section8 .container .gap .content .page-btn-box {
+  z-index: 3;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+#section8 .container .gap .content .page-btn-box button {
+  position: absolute;
+  top: 106px;
+  left: 50%;
+  width: 24px;
+  height: 45px;
+  background: url(../../../../../../public/img/intro/main_btn_abc_main_event_swiper.png) no-repeat 0 0;
+  border: 0;
+  cursor: pointer;
+}
+#section8 .container .gap .content .page-btn-box button.prev-btn {
+  left: -40px;
+  background-position: -24px 0;
+}
+#section8 .container .gap .content .page-btn-box button.next-btn {
+  left: calc(100% + 16px);
+}
+#section8 .container .gap .content .slide-container {
+  width: 100%;
+  height: 671px;
+}
+#section8 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url() no-repeat 50% 0;
+  opacity: 0;
+  z-index: 1;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide:nth-child(1) {
+  opacity: 1;
+  z-index: 3;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide:nth-child(2) {
+  opacity: 1;
+  z-index: 2;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide1 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide1_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide2 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide2_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide3 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide3_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide4 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide4_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide5 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide5_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide6 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide6_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide7 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide7_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide.slide8 {
+  background-image: url(../../../../../../public/img/intro/intro_sec8_slide8_bg.jpg);
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box {
+  width: 1200px;
+  margin: 236px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list {
+  width: 25%;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list:first-child {
+  margin: 0;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a {
+  pointer-events: none;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a figure img {
+  width: 100%;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box {
+  width: 100%;
+  padding: 15px 10px 0 10px;
+  background: #fff;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box h3 {
+  width: 100%;
+  margin: 4px 0 0 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  line-height: 120%;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box p {
+  color: #666;
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  height: 38px;
+  line-height: 19px;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box {
+  margin: 9px 0 0 0;
+  height: 19px;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box .product-price {
+  font-size: 19px;
+  color: #000;
+  font-weight: 700;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box .product-price em {
+  font-size: 12px;
+  font-weight: 500;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box .cost-price {
+  color: #999;
+  font-size: 14px;
+  vertical-align: bottom;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box .discount-price {
+  font-size: 20px;
+  margin: 0 0 0 8px;
+  color: #ee1c25;
+  font-weight: 700;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box .discount-price em {
+  font-size: 12px;
+  font-weight: 500;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box .discount-rate {
+  margin: 0 0 0 2px;
+  color: #ee1c25;
+  vertical-align: bottom;
+  font-size: 14px;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .price-box .discount-rate em {
+  vertical-align: top;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .icon_box {
+  display: inline-block;
+  width: 44px;
+  height: 20px;
+  margin: 19px 3px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .icon_box.delivery {
+  width: 64px;
+}
+#section8 .container .gap .content .slide-container .slide-view .slide-wrap .slide .product-list-box .product-list a .information-box .icon_box img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

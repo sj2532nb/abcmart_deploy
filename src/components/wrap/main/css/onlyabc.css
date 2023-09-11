@@ -1,0 +1,118 @@
+#onlyAbc {
+  width: 100%;
+  padding: 0 0 80px 0;
+}
+#onlyAbc .container {
+  width: 100%;
+}
+#onlyAbc .container .gap {
+  width: 100%;
+}
+#onlyAbc .container .gap .title {
+  padding: 75px 0 50px 0;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-family: "Noto Sans";
+  letter-spacing: -0.8px;
+}
+#onlyAbc .container .gap .title h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 35px 0;
+}
+#onlyAbc .container .gap .title p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+#onlyAbc .container .gap .content {
+  width: 100%;
+}
+#onlyAbc .container .gap .content ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#onlyAbc .container .gap .content ul li {
+  width: 33.333333%;
+  position: relative;
+}
+#onlyAbc .container .gap .content ul li .txt-box {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #fff;
+}
+#onlyAbc .container .gap .content ul li .txt-box h2 {
+  font-size: 48px;
+  margin: 0 0 15px 0;
+}
+#onlyAbc .container .gap .content ul li .txt-box h4 {
+  font-size: 16px;
+  line-height: 1.8;
+}
+#onlyAbc .container .gap .content ul li .txt-box p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.8;
+}
+#onlyAbc .container .gap .content ul li .inner-box {
+  position: absolute;
+  display: none;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 276px;
+}
+#onlyAbc .container .gap .content ul li .inner-box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 68px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin: 0 0 12px 0;
+  color: #fff;
+}
+#onlyAbc .container .gap .content ul li .inner-box a:hover {
+  background: #fff;
+  color: #000;
+}
+#onlyAbc .container .gap .content ul li .inner-box a:nth-child(3) {
+  position: relative;
+}
+#onlyAbc .container .gap .content ul li .inner-box a:nth-child(3)::before {
+  position: absolute;
+  top: 50%;
+  left: 65px;
+  transform: translateY(-50%);
+  width: 23px;
+  height: 23px;
+  background: url(../../../../../public/img/only/1646631730654.png) no-repeat 0 0;
+  background-size: 46px auto;
+  content: "";
+}
+#onlyAbc .container .gap .content ul li .inner-box a:nth-child(3):hover::before {
+  background-position: 100% 0;
+}
+#onlyAbc .container .gap .content ul li .inner-box figure {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+#onlyAbc .container .gap .content ul li:hover .inner-box {
+  display: block;
+}
+#onlyAbc .container .gap .content ul li:hover::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,667 @@
+#brandSection3 {
+  width: 100%;
+  padding: 0 0 100px 0;
+}
+#brandSection3 .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#brandSection3 .container .gap .content {
+  display: flex;
+  position: relative;
+}
+#brandSection3 .container .gap .content .left {
+  width: 250px;
+}
+#brandSection3 .container .gap .content .left .left-content {
+  padding-top: 55px;
+  position: sticky;
+  top: 0;
+}
+#brandSection3 .container .gap .content .left .left-content .left-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  height: 40px;
+}
+#brandSection3 .container .gap .content .left .left-content .left-title h2 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
+#brandSection3 .container .gap .content .left .left-content .left-title button {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 0 0 24px;
+  border: 0;
+  background: 0;
+}
+#brandSection3 .container .gap .content .left .left-content .left-title button span {
+  position: absolute;
+  left: 0;
+}
+#brandSection3 .container .gap .content .left .left-content .left-title button h3 {
+  font-size: 15px;
+  color: #666;
+}
+#brandSection3 .container .gap .content .left .left-content dl {
+  width: 100%;
+  font-family: "Noto Sans KR";
+}
+#brandSection3 .container .gap .content .left .left-content dl dt {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  height: 74px;
+  padding: 0 33px 0 0;
+  transition: all 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+}
+#brandSection3 .container .gap .content .left .left-content dl dt span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 13px;
+}
+#brandSection3 .container .gap .content .left .left-content dl dt span img {
+  width: 100%;
+}
+#brandSection3 .container .gap .content .left .left-content dl dt.on span img {
+  transform: rotate(-180deg);
+}
+#brandSection3 .container .gap .content .left .left-content dl dd {
+  width: 100%;
+  width: 100%;
+  height: 0;
+  border-bottom: 1px solid #d5d5d5;
+  transition: height 0.3s;
+  overflow: hidden;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul label {
+  cursor: pointer;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul input {
+  cursor: pointer;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .category-li {
+  width: 100%;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: #333;
+  font-weight: 500;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .category-li label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .category-li label > input {
+  margin: 0 0 0 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 13px;
+  height: 10px;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .category-li label > input:checked {
+  background: url(../../../../../../public/img/brand/chk_icon_checked_red.png) no-repeat 50% 50%;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .gender-li {
+  width: 50%;
+  height: 30px;
+  padding: 0 0 3px 0;
+  position: relative;
+  color: #666;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .gender-li:nth-child(2) {
+  padding-left: 3px;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .gender-li input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d5d5d5;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .gender-li input:checked {
+  border: 1px solid #ee1c25;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .gender-li input:checked + label {
+  color: red;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .gender-li label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .size-li {
+  width: 25%;
+  height: 24px;
+  padding: 1px;
+  position: relative;
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .size-li input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d5d5d5;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .size-li input:checked {
+  border: 1px solid #ee1c25;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .size-li input:checked + label {
+  color: red;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .size-li label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .color-li {
+  width: 25px;
+  height: 25px;
+  margin: 5px 10px 0 0;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .color-li label {
+  width: 100%;
+  height: 100%;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .color-li label input {
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #d5d5d5;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .color-li label input:checked {
+  outline: 1px solid #000;
+  outline-offset: 1px;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .color-li:nth-child(1) label input {
+  background-color: #fff;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .color-li:nth-child(2) label input {
+  background-color: #000;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .color-li:nth-child(3) label input {
+  background: url(../../../../../../public/img/brand/color.png) no-repeat 50% 50%;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .price-li {
+  width: 50%;
+  height: 30px;
+  padding: 0 0 3px 0;
+  position: relative;
+  color: #666;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .price-li:nth-child(even) {
+  padding-left: 3px;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .price-li input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d5d5d5;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .price-li input:checked {
+  border: 1px solid #ee1c25;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .price-li input:checked + label {
+  color: red;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd ul .price-li label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 27px;
+  align-items: center;
+  justify-content: center;
+}
+#brandSection3 .container .gap .content .left .left-content dl dd.on {
+  border-bottom: 1px solid #d5d5d5;
+}
+#brandSection3 .container .gap .content .left .left-content dl:nth-child(2) dd.on {
+  height: 230px;
+}
+#brandSection3 .container .gap .content .left .left-content dl:nth-child(3) dd.on {
+  height: 90px;
+}
+#brandSection3 .container .gap .content .left .left-content dl:nth-child(4) dd.on {
+  height: 200px;
+}
+#brandSection3 .container .gap .content .left .left-content dl:nth-child(5) dd.on {
+  height: 50px;
+}
+#brandSection3 .container .gap .content .left .left-content dl:nth-child(6) dd.on {
+  height: 120px;
+}
+#brandSection3 .container .gap .content .right {
+  padding: 0 0 0 55px;
+  width: 950px;
+}
+#brandSection3 .container .gap .content .right label, #brandSection3 .container .gap .content .right input {
+  cursor: pointer;
+}
+#brandSection3 .container .gap .content .right .right-title {
+  margin: 55px 0 0 0;
+  background: #fff;
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+}
+#brandSection3 .container .gap .content .right .right-title ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#brandSection3 .container .gap .content .right .right-title ul li {
+  display: flex;
+  position: relative;
+}
+#brandSection3 .container .gap .content .right .right-title ul li label {
+  margin: 0 29px 0 0;
+  font-size: 15px;
+  color: #000;
+}
+#brandSection3 .container .gap .content .right .right-title ul li label input {
+  margin: 0 8px 0 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+}
+#brandSection3 .container .gap .content .right .right-title ul li label input:checked {
+  background: url(../../../../../../public/img/brand/chk_icon_checked.png) no-repeat 50% 50%;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box {
+  cursor: pointer;
+  width: 170px;
+  height: 38px;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box input[type=text] {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  padding: 0 15px;
+  color: #000;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box input[type=text]:focus {
+  outline: 0;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box span {
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box span.on {
+  transform: translateY(-30%) rotate(180deg);
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box dl {
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  width: 170px;
+  height: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+  transition: all 0.3s;
+  overflow-y: auto;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box dl dd {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 38px;
+  padding: 0 15px;
+  transition: all 0.3s;
+  color: #b5b5b5;
+  font-family: "Montserrat";
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box dl dd:hover, #brandSection3 .container .gap .content .right .right-title ul li .select-box dl dd.on {
+  background: #f4f4f4;
+  color: #000;
+  font-weight: 600;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .select-box dl.on {
+  height: 120px;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .radio-box {
+  display: flex;
+  align-items: center;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .radio-box input[type=radio] {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 15px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  opacity: 0.2;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .radio-box input[type=radio]:checked {
+  opacity: 1;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .radio-box input[type=radio]:nth-child(1) {
+  background: url(../../../../../../public/img/brand/btn_icon_prod_grid.png) no-repeat 0 50%;
+}
+#brandSection3 .container .gap .content .right .right-title ul li .radio-box input[type=radio]:nth-child(2) {
+  background: url(../../../../../../public/img/brand/btn_icon_prod_grid.png) no-repeat 50% 50%;
+}
+#brandSection3 .container .gap .content .right .title-inner {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: 0;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+#brandSection3 .container .gap .content .right .title-inner ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#brandSection3 .container .gap .content .right .title-inner ul li button {
+  cursor: pointer;
+  width: 95px;
+  height: 38px;
+  background: 0;
+  border-radius: 19px;
+  font-size: 13px;
+  font-family: "Montserrat";
+  padding: 0 0 0 5px;
+  margin: 0 10px 0 0;
+}
+#brandSection3 .container .gap .content .right .title-inner ul li button img {
+  margin: 0 5px;
+}
+#brandSection3 .container .gap .content .right .title-inner ul li .inner-btn1 {
+  border: 1px solid #f6bec3;
+  color: #f62437;
+}
+#brandSection3 .container .gap .content .right .title-inner ul li .inner-btn2 {
+  border: 1px solid #a5a5a5;
+  color: #666;
+}
+#brandSection3 .container .gap .content .right .title-inner.on {
+  height: 80px;
+}
+#brandSection3 .container .gap .content .right .right-content {
+  width: 100%;
+  position: relative;
+}
+#brandSection3 .container .gap .content .right .right-content p {
+  margin: 28px 0 0 0;
+  color: #000;
+  font-size: 15px;
+  font-family: "Noto Sans KR";
+  display: flex;
+  align-items: center;
+}
+#brandSection3 .container .gap .content .right .right-content p strong {
+  margin: 0 0 0 3px;
+  color: #ee1c25;
+  font-weight: 600;
+}
+#brandSection3 .container .gap .content .right .right-content ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 24px 0 0 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li {
+  width: 31.8%;
+  margin: 0 0 5px 20px;
+  height: 540px;
+}
+#brandSection3 .container .gap .content .right .right-content ul li:nth-child(3n+1) {
+  margin: 0 0 5px 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li.on {
+  width: 48.8%;
+  margin: 0 0 5px 20px;
+  height: 692px;
+}
+#brandSection3 .container .gap .content .right .right-content ul li.on:nth-child(odd) {
+  margin: 0 0 5px 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li:hover {
+  outline: 1px solid #000;
+}
+#brandSection3 .container .gap .content .right .right-content ul li:hover .inner-box {
+  display: block;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .img-box {
+  position: relative;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .img-box img {
+  width: 100%;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .img-box span {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  width: 44px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .img-box span img {
+  width: 100%;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box {
+  padding: 10px 10px;
+  font-family: "Spoqa Han Sans";
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box h3 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 4px 0 0 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box h4 {
+  color: #666;
+  margin: 8px 0 0 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box h2 {
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 9px 0 0 0;
+  height: 20px;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box h2 i {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #999;
+  font-weight: 400;
+  margin: 0 10px 0 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box h2 strong {
+  font-weight: 600;
+  color: #ee1c25;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box h2 em {
+  font-size: 14px;
+  font-weight: 400;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box .badge-box {
+  display: flex;
+  margin: 19px 0 0 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .info-box .badge-box span {
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  margin: 0 3px 0 0;
+  display: flex;
+  align-items: center;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box {
+  display: none;
+  z-index: 2;
+  background: #fff;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row1 {
+  padding: 5px 15px;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row1 dl {
+  border-top: 1px dotted #aaa;
+  padding: 5px 0 0 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row1 dl dd {
+  width: 16.667%;
+  padding: 5px;
+  font-size: 13px;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 {
+  display: flex;
+  height: 42px;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left {
+  width: 52%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #000;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox] {
+  cursor: pointer;
+  display: block;
+  width: 24px;
+  height: 22px;
+  overflow: hidden;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox]:nth-child(1) {
+  background: url(../../../../../../public/img/brand/prod_icon_list_util_btn.png) no-repeat 50% 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox]:nth-child(1):hover {
+  background-position: 50% 50%;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox]:nth-child(2) {
+  background: url(../../../../../../public/img/brand/prod_icon_list_util_btn.png) no-repeat;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox]:nth-child(2):hover {
+  background-position: 0 50%;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox]:nth-child(2):checked {
+  background-position: 0 100%;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox]:nth-child(3) {
+  background: url(../../../../../../public/img/brand/prod_icon_list_util_btn.png) no-repeat 100% 0;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-left input[type=checkbox]:nth-child(3):hover {
+  background-position: 100% 50%;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-right {
+  width: 48%;
+}
+#brandSection3 .container .gap .content .right .right-content ul li .inner-box .inner-row2 .inner-right button {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  background: #000;
+  color: #fff;
+}
+#brandSection3 .container .gap .content .right .right-content .page-button-box {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#brandSection3 .container .gap .content .right .right-content .page-button-box a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 5px;
+  cursor: pointer;
+  background: #fff;
+}
+#brandSection3 .container .gap .content .right .right-content .page-button-box a.on {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+}
+#brandSection3 .container .gap .content .right .right-content .page-button-box .prev-btn-box {
+  width: 30px;
+  height: 30px;
+  margin: 0 25px 0 0;
+}
+#brandSection3 .container .gap .content .right .right-content .page-button-box .next-btn-box {
+  width: 30px;
+  height: 30px;
+  margin: 0 0 0 15px;
+}

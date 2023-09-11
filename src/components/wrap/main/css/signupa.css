@@ -1,0 +1,133 @@
+#signupa {
+  width: 100%;
+}
+#signupa #wrap {
+  width: 100%;
+}
+#signupa #wrap .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#signupa #wrap .container .gap {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 120px 0 150px 0;
+}
+#signupa #wrap .container .gap .content .title {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 32px 0;
+}
+#signupa #wrap .container .gap .content .title h1 {
+  text-align: center;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 700;
+}
+#signupa #wrap .container .gap .substance {
+  width: 100%;
+}
+#signupa #wrap .container .gap .substance .box1 {
+  width: 800px;
+  height: 137px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+#signupa #wrap .container .gap .substance .box1 .box11 {
+  width: 83px;
+  height: 76px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 57px;
+  margin-right: 17px;
+}
+#signupa #wrap .container .gap .substance .box1 .box11 span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../../../../../public/img/signup/member_icon_join_bg.png) 0% 100%;
+}
+#signupa #wrap .container .gap .substance .box1 .box12 {
+  width: 517px;
+  height: 137px;
+  padding-top: 55px;
+}
+#signupa #wrap .container .gap .substance .box1 .box12 .box121 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 0 8px 0;
+}
+#signupa #wrap .container .gap .substance .box1 .box12 .box122 {
+  color: #999999;
+  font-size: 14px;
+}
+#signupa #wrap .container .gap .substance .box1 .box12 .box122 strong {
+  font-size: 14px;
+  color: #000;
+}
+#signupa #wrap .container .gap .substance .box1 .box13 {
+  width: 52px;
+  height: 52px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 35px;
+}
+#signupa #wrap .container .gap .substance .box2 {
+  width: 800px;
+}
+#signupa #wrap .container .gap .substance .box2 .box21 {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color: red;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+#signupa #wrap .container .gap .substance .box2 .box21 .box211 {
+  width: 2px;
+  height: 2px;
+  margin-right: 7px;
+  border: 2px solid #999999;
+}
+#signupa #wrap .container .gap .substance .box2 .box22 {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+#signupa #wrap .container .gap .substance .box2 .box22 .box221 {
+  width: 2px;
+  height: 2px;
+  margin-right: 7px;
+}
+#signupa #wrap .container .gap .substance .box2 .box23 {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+#signupa #wrap .container .gap .substance .box2 .box23 .box231 {
+  width: 2px;
+  height: 2px;
+  margin-right: 7px;
+  border: 2px solid #999999;
+}
+#signupa #wrap .container .gap .substance .box2 .box24 {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+#signupa #wrap .container .gap .substance .box2 .box24 .box241 {
+  width: 2px;
+  height: 2px;
+  margin-right: 7px;
+  border: 2px solid #999999;
+}

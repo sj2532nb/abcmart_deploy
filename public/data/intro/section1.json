@@ -1,0 +1,10 @@
+{
+    "main_slide":[
+        {"no":1, "src":"./img/intro/intro_sec1_slide1.jpg", "title":"", "info":""},
+        {"no":2, "src":"./img/intro/intro_sec1_slide2.jpg", "title":"여름 준비를 위한 닥터마틴", "info":"시원함에 스타일까지"},
+        {"no":3, "src":"./img/intro/intro_sec1_slide3.jpg", "title":"", "info":""},
+        {"no":4, "src":"./img/intro/intro_sec1_slide4.png", "title":"우리 아이의 여름을 부탁해", "info":"아이들을 위한 필수 아이템"},
+        {"no":5, "src":"./img/intro/intro_sec1_slide5.jpg", "title":"GGOMOOSIN SUMMER SALE", "info":"우리 아기 첫 걸음마 슈즈 최대 70% 할인 + 파우치 증정"},
+        {"no":6, "src":"./img/intro/intro_sec1_slide6.jpg", "title":"VANS SPECIAL PRICE", "info":"어센틱, 올드스쿨 등 최대 64% SALE"}
+    ]
+}

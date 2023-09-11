@@ -1,0 +1,119 @@
+#event {
+  width: 100%;
+  font-family: "Montserrat";
+}
+#event .wrap {
+  width: 100%;
+}
+#event .wrap .container {
+  width: 100%;
+}
+#event .wrap .container .gap {
+  width: 1200px;
+  margin: 0 auto;
+}
+#event .wrap .container .gap .main-page {
+  width: 1200px;
+  padding-bottom: 150px;
+}
+#event .wrap .container .gap .main-page .mini-title {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+#event .wrap .container .gap .main-page .mini-title .teell {
+  width: 12px;
+  height: 11px;
+  overflow: hidden;
+  margin-right: 7px;
+  align-items: center;
+  display: flex;
+  margin-top: 24px;
+}
+#event .wrap .container .gap .main-page .mini-title span {
+  font-size: 13px;
+  color: rgb(153, 153, 153);
+  margin-right: 7px;
+  align-items: center;
+  display: flex;
+}
+#event .wrap .container .gap .main-page .mini-title .black {
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  margin-right: 7px;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+}
+#event .wrap .container .gap .main-page .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#event .wrap .container .gap .main-page .content {
+  width: 100%;
+  display: block;
+}
+#event .wrap .container .gap .main-page .content .tebox {
+  width: 100%;
+  padding: 0 0 70px 0;
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox {
+  width: 100%;
+  display: flex;
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox .block {
+  width: 388px;
+  height: 768px;
+  padding-bottom: 70px;
+  margin-right: 18px;
+  margin-top: 87px;
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox .block .pbox {
+  width: 355px;
+  height: 500px;
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox .block .pbox img {
+  margin-bottom: 24px;
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox .block .tbox {
+  height: 71px;
+  padding: 0 10px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Noto Sans KR";
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox .block .sbox {
+  padding: 0 10px;
+  margin-top: 14px;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 600;
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox .block .sbox img {
+  margin-right: 6px;
+}
+#event .wrap .container .gap .main-page .content .tebox .thbox .block .dbox .pic3-box {
+  margin: 22px 10px 0 10px;
+  padding-top: 15px;
+  border-top: 0.8px solid #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+#event .wrap .container .gap .main-page .content .page-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 0.8px solid #aaaaaa;
+  padding-top: 44px;
+}
+#event .wrap .container .gap .main-page .content .page-page .btn-box button {
+  width: 26px;
+  height: 26px;
+  margin: 0px 2px;
+}

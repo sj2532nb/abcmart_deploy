@@ -1,0 +1,230 @@
+#section8{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            margin: 100px 0 0 0;
+            .title{
+                width: 100%;
+                text-align: center;
+                margin: 0 0 35px 0;
+                font-family: 'Montserrat';
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #000;
+                }
+            }
+            .content{
+                width: 100%;
+                position: relative;
+                .category-btn-box{
+                    width: 1200px;
+                    z-index: 3;
+                    position: absolute;
+                    top: 160px;
+                    left: 30%;
+                    .category-btn{
+                        display: inline-block;
+                        height: 28px;
+                        margin: 0 0 0 35px;
+                        opacity: 0.4;
+                        position: relative;
+                        &::after{
+                            position: absolute;
+                            bottom: -7px;
+                            left: 35%;
+                            content: '';
+                            width: 20px;
+                            height: 4px;
+                            background: transparent;
+                            transition: all 0.3s;
+                            transform: scale(0);
+                        }
+                        &.on{
+                            font-weight: 600;
+                            opacity: 1;
+                            &::after{
+                                transform: scale(1);
+                                background: #fff;
+                            }
+                        }
+                        &:first-child{
+                            margin: 0;
+                        }
+                        a{
+                            font-size: 17px;
+                            color: #fff;
+                            font-family: 'Montserrat';
+                        }
+                    }
+                }
+                .page-btn-box{
+                    z-index: 3;
+                    position: relative;
+                    width: 1200px;
+                    margin: 0 auto;
+                    button{
+                        position: absolute;
+                        top: 106px;
+                        left: 50%;
+                        width: 24px;
+                        height: 45px;
+                        background: url(../../../../../../public/img/intro/main_btn_abc_main_event_swiper.png) no-repeat 0 0;
+                        border: 0;
+                        cursor: pointer;
+                        &.prev-btn{
+                            left: -40px;
+                            background-position: -24px 0;
+                        }
+                        &.next-btn{
+                            left: calc(100% + 16px);
+                        }
+                    }
+                }
+                .slide-container{
+                    width: 100%;
+                    height: 671px;
+                    .slide-view{
+                        width: 100%;
+                        height: 100%;
+                        overflow: hidden;
+                        .slide-wrap{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            position: relative;
+                            z-index: 1;
+                            .slide{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background: url() no-repeat 50% 0;
+                                opacity: 0;
+                                z-index: 1;
+                                &:nth-child(1){
+                                    opacity: 1;
+                                    z-index: 3;
+                                }
+                                &:nth-child(2){
+                                    opacity: 1;
+                                    z-index: 2;
+                                }  
+                                &.slide1{background-image: url(../../../../../../public/img/intro/intro_sec8_slide1_bg.jpg);}
+                                &.slide2{background-image: url(../../../../../../public/img/intro/intro_sec8_slide2_bg.jpg);}
+                                &.slide3{background-image: url(../../../../../../public/img/intro/intro_sec8_slide3_bg.jpg);}
+                                &.slide4{background-image: url(../../../../../../public/img/intro/intro_sec8_slide4_bg.jpg);}
+                                &.slide5{background-image: url(../../../../../../public/img/intro/intro_sec8_slide5_bg.jpg);}
+                                &.slide6{background-image: url(../../../../../../public/img/intro/intro_sec8_slide6_bg.jpg);}
+                                &.slide7{background-image: url(../../../../../../public/img/intro/intro_sec8_slide7_bg.jpg);}
+                                &.slide8{background-image: url(../../../../../../public/img/intro/intro_sec8_slide8_bg.jpg);}
+                                .product-list-box{
+                                    width: 1200px;
+                                    margin: 236px auto 0 auto;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .product-list{
+                                        width: 25%;
+                                        margin: 0 0 0 20px;
+                                        cursor: pointer;
+                                        &:first-child{
+                                            margin: 0;
+                                        }
+                                        a{
+                                            pointer-events: none;
+                                            figure{
+                                                img{
+                                                    width: 100%;
+                                                }
+                                            }
+                                            .information-box{
+                                                width: 100%;
+                                                padding: 15px 10px 0 10px;
+                                                background: #fff;
+                                                h3{
+                                                    width: 100%;
+                                                    margin: 4px 0 0 0;
+                                                    font-size: 15px;
+                                                    font-weight: 600;
+                                                    color: #000;
+                                                    line-height: 120%;
+                                                }
+                                                p{
+                                                    color: #666;
+                                                    margin: 8px 0 0 0;
+                                                    font-size: 14px;
+                                                    height: 38px;
+                                                    line-height: 19px;
+                                                }
+                                                .price-box{
+                                                    margin: 9px 0 0 0;
+                                                    height: 19px;
+                                                    .product-price{
+                                                        font-size: 19px;
+                                                        color: #000;
+                                                        font-weight: 700;
+                                                        em{
+                                                            font-size: 12px;
+                                                            font-weight: 500;
+                                                        }
+                                                    }
+                                                    .cost-price{
+                                                        color: #999;
+                                                        font-size: 14px;
+                                                        vertical-align: bottom;
+                                                        em{
+                                                        }
+                                                    }
+                                                    .discount-price{
+                                                        font-size: 20px;
+                                                        margin: 0 0 0 8px;
+                                                        color: #ee1c25;
+                                                        font-weight: 700;
+                                                        em{
+                                                            font-size: 12px;
+                                                            font-weight: 500;
+                                                        }
+                                                    }
+                                                    .discount-rate{
+                                                        margin: 0 0 0 2px;
+                                                        color: #ee1c25;
+                                                        vertical-align: bottom;
+                                                        font-size: 14px;
+                                                        em{
+                                                            vertical-align: top;
+                                                        }
+                                                    }
+                                                }
+                                                .icon_box{
+                                                    display: inline-block;
+                                                    width: 44px;
+                                                    height: 20px;
+                                                    margin: 19px 3px 0 0;
+                                                    position: relative;
+                                                    overflow: hidden;
+                                                    &.delivery{
+                                                        width: 64px;
+                                                    }
+                                                    img{
+                                                        position: absolute;
+                                                        top: 0;
+                                                        right: 0;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1227 @@
+#cart{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            margin-bottom: 69px;
+            .title{
+                width: 100%;
+                margin: 79px 0 0 0;
+                display: flex;
+                justify-content: space-between;
+                h1{
+                    font-size: 32px;
+                    font-weight: 700;
+                    color: #000;
+                    transform: translateY(-3px);
+                }
+                ul{
+                    display: flex;
+                    padding: 10px 0 0 0;
+                    li{
+                        color: #999;
+                        padding: 0 22px 0 0;
+                        font-size: 15px;
+                        position: relative;
+                        font-weight: 600;
+                        letter-spacing: -1.1px;
+                        font-family: 'Montserrat';
+                        &::after{
+                            content: '';
+                            position: absolute;
+                            display: inline-block;
+                            width: 7px;
+                            height: 11px;
+                            top: 2px;
+                            right: 0;
+                            background: url(../../../../../public/img/intro/order_breadcrumb_icon.png) no-repeat 0 0;
+                        }
+                        &:nth-child(2){
+                            padding: 0 22px 0 14px;
+                        }
+                        &:nth-child(3){
+                            padding: 0;
+                            margin: 0 0 0 9px;
+                            &::after{
+                                display: none;
+                            }
+                        }
+                        &.on{
+                            color: #000;
+                            font-family: 'Noto Sans KR';
+                            font-weight: 500;
+                            &::after{
+                                background-position: 100% 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .delivery-category{
+                width: 100%;
+                margin: 106px 0 31px 0;
+                ul{
+                    display: flex;
+                    li{
+                        &:nth-child(1){
+                            &::after{
+                                content:'';
+                                display: inline-block;
+                                margin: 6px 16px 0 14px;
+                                width: 1px;
+                                height: 13px;
+                                background: #999;
+                                vertical-align: top;
+                            }
+                        }
+                        &#defaultDelivery{
+                            a{
+                                color: #000;
+                                font-weight: 700;
+                            }
+                        }
+                        a{
+                            color: #999;
+                            font-weight: 500;
+                            font-size: 22px;
+                            letter-spacing: -1.1px;
+                            span{
+                                font-weight: 600;
+                                font-family: 'Montserrat';
+                                vertical-align: baseline;
+                                letter-spacing: normal;
+                            }
+                        }
+                    }
+                }
+            }
+            .content{
+                width: 100%;
+                .empty-box{
+                    width: 100%;
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: url(../../../../../public/img/cart/common_icon_error.png) no-repeat 50% 32%;
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: -1px;
+                    color: #000;
+                    border-top: 2px solid #000;
+                }
+                .inner-container{
+                    width: 100%;
+                    >ul{
+                        width: 100%;
+                        display: flex;
+                        margin: 0 20px 0 0;
+                        height: 56px;
+                        li{
+                            width: 50%;
+                            border: 1px solid #d5d5d5;
+                            border-bottom: 3px solid #000;
+                            text-align: center;
+                            &.on{
+                                border: 3px solid #000;
+                                border-bottom: 0;
+                                pointer-events: none;
+                                a{
+                                    padding: 0 20px;
+                                    color: #000;
+                                    font-weight: 500;
+                                    line-height: 48px;
+                                    letter-spacing: -0.75px;
+                                }
+                            }
+                            a{
+                                display: block;
+                                padding: 0 21px;
+                                line-height: 52px;
+                                color: #666;
+                                font-size: 15px;
+                                letter-spacing: -0.55px;
+                                span{
+                                    color: #ee1c25;
+                                    vertical-align: top;
+                                    margin: 0 0 0 1px;
+                                }
+                            }
+                        }
+                    }
+                    .cart-box{
+                        width: 100%;
+                        .cart-top-box{
+                            width: 100%;
+                            margin: 30px 0 22px 0;
+                            display: flex;
+                            justify-content: space-between;
+                            .all-select-btn{
+                                input[type=checkbox]{
+                                    display: none;
+                                }
+                                input[type=checkbox]+label{
+                                    display: inline-block;
+                                    color: #000;
+                                    padding: 0 0 0 28px;
+                                    cursor: pointer;
+                                    line-height: 20px;
+                                    font-size: 15px;
+                                    position: relative;
+                                    &::before{
+                                        content: '';
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 20px;
+                                        height: 20px;
+                                        background: #fff;
+                                        border: 1px solid #d5d5d5;
+                                        transition: all 0.23s;
+                                    }
+                                    &::after{
+                                        content: '';
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 20px;
+                                        height: 20px;
+                                        background: #fff;
+                                        border: 1px solid #000;
+                                        background: url(../../../../../public/img/intro/chk_icon_checked.png) no-repeat 0 0;
+                                        opacity: 0;
+                                        transition: all 0.23s;
+                                    }
+                                }
+                                input[type=checkbox]:checked+label{
+                                    &::before{
+                                        border-color: #000;
+                                    }
+                                    &::after{
+                                        background: url(../../../../../public/img/cart/chk_icon_checked.png) no-repeat 0 0;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                            .right-box{
+                                span{
+                                    display: inline-block;
+                                    padding: 0 0 0 22px;
+                                    background: url(../../../../../public/img/cart/order_icon_store.png) no-repeat 0 0;
+                                    font-size: 13px;
+                                    color: #666;
+                                    line-height: 14px;
+                                    position: relative;
+                                    &:nth-child(2){
+                                        margin: 1px 0 0 44px;
+                                        padding: 0;
+                                        background: url(../../../../../public/img/cart/comm_art_delivery.png) no-repeat 0 50%;
+                                        &::before{
+                                            content: '';
+                                            display: inline-block;
+                                            width: 18px;
+                                            height: 17px;
+                                            margin: 1px 3px 0 0;
+                                            background: url(../../../../../public/img/cart/comm_art_delivery_sm.png) no-repeat 0 0;
+                                            transform: translateX(-23px);
+                                        }
+                                        em{
+                                            width: 63px;
+                                            height: 19px;
+                                            color: #444;
+                                            line-height: 20px;
+                                            font-weight: 700;
+                                            padding: 0 0 0 46px;
+                                            vertical-align: top;
+                                        }
+                                    }
+                                }
+                                button{
+                                    width: 21px;
+                                    height: 21px;
+                                    background: url(../../../../../public/img/cart/mypage_icon_tooltip_claim.png) no-repeat 0 50%;
+                                    border: 0;
+                                    margin: -1px 0 0 5px;
+                                }
+                            }
+                        }
+                        .cart-middle-box{
+                            width: 100%;
+                            margin: 14px 0 0 0;
+                            .cart-header{
+                                width: 100%;
+                                height: 48px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                background: #f0f0f0;
+                                border-top: 2px solid #000;
+                                border-bottom: 1px solid #d5d5d5;
+                                padding: 0 20px;
+                                .left-box{
+                                    span{
+                                        font-weight: 500;
+                                        font-size: 15px;
+                                        color: #000;
+                                        strong{
+                                            font-weight: 600;
+                                            font-family: 'Montserrat';
+                                            vertical-align: baseline;
+                                            display: none;
+                                            &.on{
+                                                display: inline;
+                                            }
+                                        }
+                                        &:nth-child(2){
+                                            font-size: 14px;
+                                            &::before{
+                                                content: '';
+                                                display: inline-block;
+                                                width: 1px;
+                                                height: 7px;
+                                                margin: 5px 9px 0 7px;
+                                                background: #999;
+                                                vertical-align: top;
+                                            }
+                                            em{
+                                                font-size: 17px;
+                                                color: #ee1c25;
+                                                font-weight: 600;
+                                                font-family: 'Montserrat';
+                                                vertical-align: baseline;
+                                            }
+                                        }
+                                    }
+                                }
+                                >span{
+                                    color: #333;
+                                    background: url(../../../../../public/img/cart/mypage_icon_delivery.png) no-repeat 0 50%;
+                                    padding: 1px 0 2px 26px;
+                                    font-size: 13px;
+                                }
+                            }
+                            .cart-container{
+                                width: 100%;
+                                table{
+                                    border-collapse: collapse;
+                                    border-bottom: 1px solid #b5b5b5;
+                                    tbody{
+                                        tr{
+                                            border-bottom: 1px solid #e5e5e5;
+                                            &:last-child{
+                                                border: 0;
+                                            }
+                                            td{
+                                                padding: 20px 20px 15px 20px;
+                                                height: 140.200px;
+                                                &.col1{
+                                                    padding-right: 0;
+                                                    .select-btn{
+                                                        position: relative;
+                                                        input[type='checkbox'] {
+                                                            appearance: none;
+                                                            width: 20px;
+                                                            height: 20px;
+                                                            background: #fff;
+                                                            border: 1px solid #d5d5d5;
+                                                            transition: all 0.23s;
+                                                            &:checked {
+                                                                border-color: #000;
+                                                                background: url(../../../../../public/img/intro/chk_icon_checked.png) no-repeat 50% 50%;
+                                                                background-size: cover;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                &.col2{
+                                                    width: 508px;
+                                                    .product-box{
+                                                        width: 100%;
+                                                        display: flex;
+                                                        figure{
+                                                            width: 100px;
+                                                            a{
+                                                                img{
+                                                                    width: 100%;
+                                                                }
+                                                            }
+                                                        }
+                                                        .information{
+                                                            width: 394px;
+                                                            margin: 0 0 0 14px;
+                                                            h3{
+                                                                font-size: 14px;
+                                                                font-weight: 600;
+                                                                margin: 4px 0 0 0;
+                                                                color: #000;
+                                                                height: 22px;
+                                                                .icon-box{
+                                                                    display: inline-block;
+                                                                    margin: -4px 0 0 11px;
+                                                                    .pickup{
+                                                                        display: inline-block;
+                                                                        width: 16px;
+                                                                        height: 14px;
+                                                                        background: url(../../../../../public/img/cart/order_icon_store.png) no-repeat 0 0;
+                                                                    }
+                                                                    .art-delivery{
+                                                                        display: inline-block;
+                                                                        width: 17px;
+                                                                        height: 17px;
+                                                                        margin: -2px 0 0 9px;
+                                                                        background: url(../../../../../public/img/cart/comm_art_delivery_sm.png) no-repeat 0 0;
+                                                                    }
+                                                                }
+                                                            }
+                                                            a{
+                                                                display: block;
+                                                                width: 100%;
+                                                                height: 42px;
+                                                                max-height: 42px;
+                                                                line-height: 21px;
+                                                                font-size: 13px;
+                                                                color: #666;
+                                                            }
+                                                            p{
+                                                                margin: 5px 0 0 0;
+                                                                span{
+                                                                    font-family: 'Montserrat';
+                                                                    line-height: 24px;
+                                                                    font-size: 13px;
+                                                                    color: #666;
+                                                                }
+                                                                button{
+                                                                    margin: 0 0 0 5px;
+                                                                    min-width: 60px;
+                                                                    height: 24px;
+                                                                    padding: 0 8px;
+                                                                    background: #f8f8f8;
+                                                                    border: 1px solid #d5d5d5;
+                                                                    line-height: 22px;
+                                                                    font-size: 12px;
+                                                                    color: #666;
+                                                                    transition: all 0.23s ease-out;
+                                                                    &:focus{
+                                                                        color: #000;
+                                                                        border-color: #000;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                &.col3{
+                                                    text-align: center;
+                                                    span{
+                                                        display: inline-block;
+                                                        width: 77px;
+                                                        height: 24px;
+                                                        .sub-btn{
+                                                            display: inline-block;
+                                                            width: 24px;
+                                                            height: 24px;
+                                                            border: 1px solid #d5d5d5;
+                                                            position: relative;
+                                                            em{
+                                                                position: absolute;
+                                                                top: 50%;
+                                                                left: 50%;
+                                                                margin: -4px 0 0 -3px;
+                                                                color: #000;
+                                                                display: inline-block;
+                                                                width: 7px;
+                                                                height: 7px;
+                                                                background: url(../../../../../public/img/cart/spinner_icon_button.png) no-repeat 0 0;
+                                                            }
+                                                        }
+                                                        input[type=number]{
+                                                            text-align: center;
+                                                            width: 29px;
+                                                            height: 24px;
+                                                            border: 1px solid #d5d5d5;
+                                                            cursor: text;
+                                                            &::-webkit-outer-spin-button,
+                                                            &::-webkit-inner-spin-button {
+                                                                -webkit-appearance: none;
+                                                                margin: 0;
+                                                            }
+                                                        }
+                                                        .add-btn{
+                                                            display: inline-block;
+                                                            width: 24px;
+                                                            height: 24px;
+                                                            border: 1px solid #d5d5d5;
+                                                            position: relative;
+                                                            em{
+                                                                position: absolute;
+                                                                top: 50%;
+                                                                left: 50%;
+                                                                margin: -4px 0 0 -3px;
+                                                                color: #000;
+                                                                display: inline-block;
+                                                                width: 7px;
+                                                                height: 7px;
+                                                                background: url(../../../../../public/img/cart/spinner_icon_button.png) no-repeat -7px 0;
+                                                            }
+                                                        }
+                                                    }
+                                                    button{
+                                                        display: block;
+                                                        margin: 3px 0 0 0;
+                                                        min-width: 77px;
+                                                        height: 26px;
+                                                        padding: 0 12px;
+                                                        line-height: 26px;
+                                                        font-size: 12px;
+                                                        color: #666;
+                                                        background: #fff;
+                                                        border: 1px solid #666;
+                                                        font-weight: 600;
+                                                    }
+                                                }
+                                                &.col4{
+                                                    text-align: center;
+                                                    line-height: 20px;
+                                                    .point{
+                                                        font-size: 15px;
+                                                        color: #ee1c25;
+                                                        font-weight: 700;
+                                                        font-family: 'Montserrat';
+                                                    }
+                                                    p{
+                                                        width: 135px;
+                                                        margin: 2px 0 0 0;
+                                                        font-size: 12px;
+                                                        color: #666;
+                                                        letter-spacing: -0.3px;
+                                                    }
+                                                }
+                                                &.col5{
+                                                    font-size: 15px;
+                                                    color: #000;
+                                                    line-height: 20px;
+                                                    text-align: center;
+                                                    p{
+                                                        width: 130px;
+                                                        .cost-price{
+                                                            font-size: 13px;
+                                                            color: #999;
+                                                            display: block;
+                                                            margin: 0 18px 0 0;
+                                                            font-family: 'Montserrat';
+                                                            em{
+                                                                vertical-align: top;
+                                                            }
+                                                        }
+                                                        .discount-price{
+                                                            color: #ee1c25;
+                                                            font-size: 18px;
+                                                            font-weight: 600;
+                                                            font-family: 'Montserrat';
+                                                            letter-spacing: -0.75px;
+                                                            em{
+                                                                margin: 0 0 0 3px;
+                                                                font-weight: 400;
+                                                                font-size: 15px;
+                                                                color: #000;
+                                                                font-family: 'Noto Sans KR';
+                                                                vertical-align: top;
+                                                            }
+                                                        }
+                                                        span{
+                                                            display: inline-block;
+                                                            width: 18px;
+                                                            height: 18px;
+                                                            margin: 0 0 0 5px;
+                                                            background: url(../../../../../public/img/cart/mypage_icon_tooltip_discount.png) no-repeat 0 0;
+                                                        }
+                                                    }
+                                                    button{
+                                                        min-width: 74px;
+                                                        height: 26px;
+                                                        margin: 5px 0 0 0;
+                                                        padding: 0 12px 0 29px;
+                                                        font-size: 12px;
+                                                        line-height: 24px;
+                                                        color: #666;
+                                                        border: 1px solid #666;
+                                                        letter-spacing: -0.6px;
+                                                        font-weight: 500;
+                                                        font-family: 'Noto Sans KR';
+                                                        background: url(../../../../../public/img/cart/order_icon_coupon.png) no-repeat 8px 6px;
+                                                    }
+                                                }
+                                                &.col6{
+                                                    button{
+                                                        min-width: 110px;
+                                                        height: 38px;
+                                                        padding: 0 12px;
+                                                        line-height: 36px;
+                                                        font-size: 13px;
+                                                        border: 1px solid #111;
+                                                        font-weight: 500;
+                                                        font-family: 'Noto Sans KR';
+                                                        &.buy-btn{
+                                                            background: #111;
+                                                            color: #fff;
+                                                        }
+                                                        &.delete-btn{
+                                                            background: #fff;
+                                                            margin: 6px 0 0 0;
+                                                            span{
+                                                                padding: 0 0 0 22px;
+                                                                background: url(../../../../../public/img/cart/order_icon_delete.png) no-repeat 0 50%;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .cart-footer{
+                                width: 100%;
+                                margin: 14px 0 20px 0;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .cart-btn-box{
+                                    button{
+                                        min-width: 110px;
+                                        height: 38px;
+                                        padding: 0 12px;
+                                        line-height: 36px;
+                                        font-size: 13px;
+                                        border: 1px solid #000;
+                                        font-weight: 500;
+                                        font-family: 'Noto Sans KR';
+                                        background: #fff;
+                                        color: #000;
+                                        &:nth-child(2){
+                                            margin: 0 10px;
+                                        }
+                                    }
+                                }
+                                p{
+                                    color: #999;
+                                    font-size: 13px;
+                                    line-height: 22px;
+                                    position: relative;
+                                    letter-spacing: -0.325px;
+                                    &::before{
+                                        content: '';
+                                        position: absolute;
+                                        width: 3px;
+                                        height: 3px;
+                                        top: 10px;
+                                        left: -9px;
+                                        background: #999;
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                        }
+                        .cart-bottom-box{
+                            width: 100%;
+                            border-top: 3px solid #000;
+                            border-bottom: 1px solid #b5b5b5;
+                            table{
+                                border-collapse: collapse;
+                                tbody{
+                                    border-bottom: 1px solid #b5b5b5;
+                                    tr{
+                                        td{
+                                            width: 400px;
+                                            height: 60px;
+                                            padding: 0 27px;
+                                            text-align: center;
+                                            &.col1{
+                                                padding-left: 19px;
+                                                p{
+                                                    margin: 2px 0 0 0;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    .order-price{
+                                                        font-weight: 500;
+                                                        color: #333;
+                                                        font-size: 15px;
+                                                        letter-spacing: -0.75px;
+                                                    }
+                                                    .order-price-value{
+                                                        color: #000;
+                                                        font-size: 22px;
+                                                        font-weight: 600;
+                                                        letter-spacing: -0.75px;
+                                                        font-family: 'Montserrat';
+                                                        em{
+                                                            font-size: 15px;
+                                                            padding: 0 0 0 3px;
+                                                            font-weight: 500;
+                                                            font-family: 'Noto Sans KR';
+                                                            vertical-align: 1px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.col2{
+                                                border-left: 1px solid #e5e5e5;
+                                                border-right: 1px solid #e5e5e5;
+                                                position: relative;
+                                                &::before{
+                                                    content: '';
+                                                    position: absolute;
+                                                    top: 15px;
+                                                    left: -14px;
+                                                    width: 28px;
+                                                    height: 28px;
+                                                    background: url(../../../../../public/img/cart/comm_icon_payment.png) no-repeat 0 0;
+                                                }
+                                                p{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    .total-discount-price{
+                                                        font-weight: 500;
+                                                        color: #333;
+                                                        font-size: 15px;
+                                                        letter-spacing: -0.75px;
+                                                    }
+                                                    .total-discount-price-value{
+                                                        color: #000;
+                                                        font-size: 22px;
+                                                        font-weight: 600;
+                                                        letter-spacing: -0.75px;
+                                                        font-family: 'Montserrat';
+                                                        em{
+                                                            font-size: 15px;
+                                                            padding: 0 0 0 3px;
+                                                            font-weight: 500;
+                                                            font-family: 'Noto Sans KR';
+                                                            vertical-align: 1px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.col3{
+                                                position: relative;
+                                                &::before{
+                                                    content: '';
+                                                    position: absolute;
+                                                    top: 15px;
+                                                    left: -14px;
+                                                    width: 28px;
+                                                    height: 28px;
+                                                    background: url(../../../../../public/img/cart/comm_icon_payment.png) no-repeat -28px 0;
+                                                }
+                                                p{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    .expected-payment-amount{
+                                                        font-weight: 500;
+                                                        color: #333;
+                                                        font-size: 15px;
+                                                        letter-spacing: -0.75px;
+                                                    }
+                                                    .expected-payment-amount-value{
+                                                        color: #ee1c25;
+                                                        font-size: 22px;
+                                                        font-weight: 600;
+                                                        letter-spacing: -0.75px;
+                                                        font-family: 'Montserrat';
+                                                        em{
+                                                            font-size: 15px;
+                                                            padding: 0 0 0 3px;
+                                                            font-weight: 500;
+                                                            font-family: 'Noto Sans KR';
+                                                            vertical-align: 1px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                tfoot{
+                                    background: #f8f8f8;
+                                    tr{
+                                        td{
+                                            width: 400px;
+                                            padding: 23px 27px 26px 27px;
+                                            &.col1{
+                                                padding-left: 19px;
+                                                p{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    line-height: 28px;
+                                                    span{
+                                                        font-size: 14px;
+                                                        letter-spacing: -0.7px;
+                                                        color: #666;
+                                                        &.product-price-value,
+                                                        &.delivery-charge-value{
+                                                            font-family: 'Montserrat';
+                                                            em{
+                                                                font-family: 'Noto Sans KR';
+                                                                vertical-align: baseline;
+                                                                margin: 0 0 0 1px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.col2{
+                                                border-left: 1px solid #e5e5e5;
+                                                border-right: 1px solid #e5e5e5;
+                                                p{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    line-height: 28px;
+                                                    span{
+                                                        font-size: 14px;
+                                                        letter-spacing: -0.7px;
+                                                        color: #666;
+                                                        &.product-discount-value,
+                                                        &.promotion-value{
+                                                            font-family: 'Montserrat';
+                                                            em{
+                                                                font-family: 'Noto Sans KR';
+                                                                vertical-align: baseline;
+                                                                margin: 0 0 0 1px;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &.col3{
+                                                p{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    line-height: 28px;
+                                                    span{
+                                                        font-size: 14px;
+                                                        letter-spacing: -0.7px;
+                                                        color: #666;
+                                                        &.expected-point-value{
+                                                            font-family: 'Montserrat';
+                                                            em{
+                                                                vertical-align: top;
+                                                                margin: 0 0 0 1PX;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                .point-text{
+                                                    color: #999;
+                                                    line-height: 18px;
+                                                    font-size: 13px;
+                                                    letter-spacing: -0.65px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .main-button-box{
+                            width: 100%;
+                            margin: 50px 0 0 0;
+                            text-align: center;
+                            button{
+                                min-width: 200px;
+                                height: 60px;
+                                line-height: 58px;
+                                font-size: 16px;
+                                border: 1px solid #000;
+                                padding: 0 25px;
+                                letter-spacing: -0.8px;
+                                font-weight: 500;
+                                font-family: 'Noto Sans KR';
+                                &.keep-shopping{
+                                    background: #fff;
+                                    color: #000;
+                                }
+                                &.select-product-order{
+                                    background: #666;
+                                    color: #fff;
+                                    border-color: #666;
+                                    margin: 0 10px;
+                                }
+                                &.all-product-order{
+                                    background: #000;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+                .notice-box{
+                    width: 100%;
+                    margin: 80px 0 0 0;
+                    border: 1px solid #d5d5d5;
+                    padding: 38px 39px 36px 39px;
+                    background: #f8f8f8;
+                    h2{
+                        padding: 0 0 0 25px;
+                        font-weight: 500;
+                        line-height: 18px;
+                        font-size: 15px;
+                        letter-spacing: -0.75px;
+                        color: #000;
+                        background: url(../../../../../public/img/cart/text_icon_notice.png) no-repeat 0 0;
+                    }
+                    ul{
+                        margin: 10px 0 0 0;
+                        li{
+                            padding: 0 0 0 10px;
+                            line-height: 22px;
+                            color: #666;
+                            font-size: 13px;
+                            letter-spacing: -0.325px;
+                            font-family: 'Montserrat';
+                            position: relative;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                top: 10px;
+                                left: 2px;
+                                width: 2px;
+                                height: 2px;
+                                background: #999;
+                            }
+                        }
+                    }
+                }
+            }
+            .art-delivery-content{
+                width: 100%;
+                .delivery-category{
+                    width: 100%;
+                    margin: 106px 0 31px 0;
+                    ul{
+                        display: flex;
+                        li{
+                            &:nth-child(1){
+                                &::after{
+                                    content:'';
+                                    display: inline-block;
+                                    margin: 6px 16px 0 14px;
+                                    width: 1px;
+                                    height: 13px;
+                                    background: #999;
+                                    vertical-align: top;
+                                }
+                            }
+                            &#artDelivery{
+                                a{
+                                    color: #000;
+                                    font-weight: 700;
+                                }
+                            }
+                            a{
+                                color: #999;
+                                font-weight: 500;
+                                font-size: 22px;
+                                letter-spacing: -1.1px;
+                                span{
+                                    font-weight: 600;
+                                    font-family: 'Montserrat';
+                                    vertical-align: baseline;
+                                    letter-spacing: normal;
+                                }
+                            }
+                        }
+                    }
+                }
+                .content{
+                    width: 100%;
+                    .empty-box{
+                        width: 100%;
+                        height: 500px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: url(../../../../../public/img/cart/common_icon_error.png) no-repeat 50% 32%;
+                        font-size: 20px;
+                        font-weight: 500;
+                        letter-spacing: -1px;
+                        color: #000;
+                        border-top: 2px solid #000;
+                    }
+                    .notice-box{
+                        width: 100%;
+                        margin: 80px 0 0 0;
+                        border: 1px solid #d5d5d5;
+                        padding: 38px 39px 36px 39px;
+                        background: #f8f8f8;
+                        h2{
+                            padding: 0 0 0 25px;
+                            font-weight: 500;
+                            line-height: 18px;
+                            font-size: 15px;
+                            letter-spacing: -0.75px;
+                            color: #000;
+                            background: url(../../../../../public/img/cart/text_icon_notice.png) no-repeat 0 0;
+                        }
+                        ul{
+                            margin: 10px 0 0 0;
+                            li{
+                                padding: 0 0 0 10px;
+                                line-height: 22px;
+                                color: #666;
+                                font-size: 13px;
+                                letter-spacing: -0.325px;
+                                font-family: 'Montserrat';
+                                position: relative;
+                                &::before{
+                                    content: '';
+                                    position: absolute;
+                                    top: 10px;
+                                    left: 2px;
+                                    width: 2px;
+                                    height: 2px;
+                                    background: #999;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .recent-view-box{
+                width: 100%;
+                margin: 80px 0 0 0;
+                .inner-container{
+                    width: 100%;
+                    >ul{
+                        width: 100%;
+                        display: flex;
+                        margin: 0 20px 0 0;
+                        height: 56px;
+                        li{
+                            width: 50%;
+                            border: 1px solid #d5d5d5;
+                            border-bottom: 3px solid #000;
+                            text-align: center;
+                            &.on{
+                                border: 3px solid #000;
+                                border-bottom: 0;
+                                pointer-events: none;
+                                a{
+                                    padding: 0 20px;
+                                    color: #000;
+                                    font-weight: 500;
+                                    line-height: 48px;
+                                    letter-spacing: -0.75px;
+                                }
+                            }
+                            a{
+                                display: block;
+                                padding: 0 21px;
+                                line-height: 52px;
+                                color: #666;
+                                font-size: 15px;
+                                letter-spacing: -0.55px;
+                            }
+                        }
+                    }
+                }
+                .empty-box{
+                    width: 100%;
+                    height: 500px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: url(../../../../../public/img/cart/common_icon_error.png) no-repeat 50% 32%;
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: -1px;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+#optionChangeModal{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .option-container{
+        position: relative;
+        width: 600px;
+        background: #fff;
+        padding: 0;
+        margin: 60px 0;
+        border: 1px solid #000;
+        .option-gap{
+            width: 100%;
+            .option-title{
+                width: 100%;
+                min-height: 84px;
+                padding: 0 29px;
+                position: relative;
+                h2{
+                    color: #000;
+                    padding: 0 40px 0 0;
+                    line-height: 80px;
+                    border-top: 2px solid transparent;
+                    font-family: 'Montserrat';
+                    font-weight: 500;
+                    font-size: 20px;
+                    letter-spacing: -1px;
+                    border-bottom: 2px solid #000;
+                }
+                button{
+                    position: absolute;
+                    top: 34px;
+                    right: 29px;
+                    width: 19px;
+                    height: 19px;
+                    background: transparent;
+                    border: 0;
+                    span{
+                        display: inline-block;
+                        width: 100%;
+                        height: 100%;
+                        background: url(../../../../../public/img/cart/dialog_icon_btn_close.png) no-repeat 50% 50%;
+                    }
+                }
+            }
+            .option-content{
+                width: 100%;
+                .inner-box{
+                    width: 100%;
+                    padding: 20px 29px 0 29px;
+                    .product-box{
+                        width: 100%;
+                        display: flex;
+                        figure{
+                            width: 100px;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        .information{
+                            margin: 0 0 0 14px;
+                            h3{
+                                font-size: 14px;
+                                font-weight: 600;
+                                margin: 4px 0 0 0;
+                                color: #000;
+                                line-height: 120%;
+                            }
+                            p{
+                                display: block;
+                                width: 100%;
+                                height: 42px;
+                                max-height: 42px;
+                                line-height: 21px;
+                                font-size: 13px;
+                                color: #666;
+                            }
+                            span{
+                                margin: 5px 0 0 0;
+                                font-family: 'Montserrat';
+                                line-height: 24px;
+                                font-size: 13px;
+                                color: #666;
+                            }
+                        }
+                    }
+                    .size-box{
+                        width: 100%;
+                        border-top: 1px solid #e5e5e5;
+                        border-bottom: 1px solid #e5e5e5;
+                        margin: 20px 0 0 0;
+                        padding: 30px 10px 28px 10px;
+                        display: flex;
+                        justify-content: space-between;
+                        span{
+                            font-size: 14px;
+                            color: #333;
+                            font-family: 'Montserrat';
+                            font-weight: 600;
+                            line-height: 38px;
+                        }
+                        .select-box{
+                            position: relative;
+                            select{
+                                display: block;
+                                width: 404px;
+                                height: 38px;
+                                color: #666;
+                                padding: 0 30px 0 12px;
+                                outline: 0;
+                                border: 1px solid #d5d5d5;
+                                line-height: 38px;
+                                font-size: 14px;
+                                letter-spacing: -0.7px;
+                                font-family: 'Noto Sans KR';
+                                appearance: none;
+                            }
+                            option{
+                                background: #fff;
+                                width: 404px;
+                                max-height: 140px;
+                                padding: 10px 12px 12px 12px;
+                                overflow-y: scroll;
+                                border: 1px solid #d5d5d5;
+                                border-top: 0;
+                                font-size: 14px;
+                                line-height: 38px;
+                                letter-spacing: -0.7px;
+                                color: #b5b5b5;
+                                &:hover{
+                                    background: #f8f8f8;
+                                    color: #000;
+                                }
+                            }
+                            .select-arrow{
+                                position: absolute;
+                                top: 16px;
+                                right: 12px;
+                                display: inline-block;
+                                width: 8px;
+                                height: 5px;
+                                background: url(../../../../../public/img/cart/select_icon_arrow.png) no-repeat 0 0;
+                            }
+                        }
+                    }
+                }
+                .option-button-box{
+                    width: 100%;
+                    margin: 40px 0 50px 0;
+                    text-align: center;
+                    button{
+                        width: 140px;
+                        height: 44px;
+                        padding: 0 25px;
+                        background: #111;
+                        border: 1px solid #111;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 42px;
+                        letter-spacing: -0.7px;
+                        color: #fff;
+                        font-family: 'Noto Sans KR';
+                    }
+                }
+            }
+        }
+    }
+}

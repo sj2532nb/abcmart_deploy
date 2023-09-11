@@ -1,0 +1,24 @@
+{
+    "event_slide":[
+        {"no":6, "src":"./img/intro/intro_sec4_slide6.jpg", "title":"ABC 아웃렛", "info":"이월 상품 특별 할인가에 판매하는 아울렛 존"},
+        {"no":7, "src":"./img/intro/intro_sec4_slide7.jpg", "title":"도움돼요 챌린지", "info":"리뷰에 도움돼요 클릭"},
+        {"no":8, "src":"./img/intro/intro_sec4_slide8.jpg", "title":"23SS ABC MART", "info":"EXCLUSIVE"},
+        {"no":9, "src":"./img/intro/intro_sec4_slide9.jpg", "title":"Stay dry and Stylish", "info":"미리 준비하는 RAINY SEASON"},
+        {"no":10, "src":"./img/intro/intro_sec4_slide10.jpg", "title":"ABC MART APP 설치", "info":"APP 설치하고 할인 쿠폰 받아보세요"},
+        {"no":1, "src":"./img/intro/intro_sec4_slide1.jpg", "title":"베스트리뷰", "info":"후기 남기고 이벤트에 참여하세요"},
+        {"no":2, "src":"./img/intro/intro_sec4_slide2.jpg", "title":"6월 출석체크", "info":"매일 출석 체크하고 할인 쿠폰을 받아보세요"},
+        {"no":3, "src":"./img/intro/intro_sec4_slide3.jpg", "title":"아트라이브", "info":"사전 알림부터 라이브 혜택까지"},
+        {"no":4, "src":"./img/intro/intro_sec4_slide4.jpg", "title":"ABC 프라이빗 브랜드관", "info":"ABC-MART의 취향저격 PB브랜드 모음"},
+        {"no":5, "src":"./img/intro/intro_sec4_slide5.jpg", "title":"LAST ONE MY SIZE", "info":"하나 남은 내 사이즈"},
+        {"no":6, "src":"./img/intro/intro_sec4_slide6.jpg", "title":"ABC 아웃렛", "info":"이월 상품 특별 할인가에 판매하는 아울렛 존"},
+        {"no":7, "src":"./img/intro/intro_sec4_slide7.jpg", "title":"도움돼요 챌린지", "info":"리뷰에 도움돼요 클릭"},
+        {"no":8, "src":"./img/intro/intro_sec4_slide8.jpg", "title":"23SS ABC MART", "info":"EXCLUSIVE"},
+        {"no":9, "src":"./img/intro/intro_sec4_slide9.jpg", "title":"Stay dry and Stylish", "info":"미리 준비하는 RAINY SEASON"},
+        {"no":10, "src":"./img/intro/intro_sec4_slide10.jpg", "title":"ABC MART APP 설치", "info":"APP 설치하고 할인 쿠폰 받아보세요"},
+        {"no":1, "src":"./img/intro/intro_sec4_slide1.jpg", "title":"베스트리뷰", "info":"후기 남기고 이벤트에 참여하세요"},
+        {"no":2, "src":"./img/intro/intro_sec4_slide2.jpg", "title":"6월 출석체크", "info":"매일 출석 체크하고 할인 쿠폰을 받아보세요"},
+        {"no":3, "src":"./img/intro/intro_sec4_slide3.jpg", "title":"아트라이브", "info":"사전 알림부터 라이브 혜택까지"},
+        {"no":4, "src":"./img/intro/intro_sec4_slide4.jpg", "title":"ABC 프라이빗 브랜드관", "info":"ABC-MART의 취향저격 PB브랜드 모음"},
+        {"no":5, "src":"./img/intro/intro_sec4_slide5.jpg", "title":"LAST ONE MY SIZE", "info":"하나 남은 내 사이즈"}
+    ]
+}

@@ -1,0 +1,22 @@
+#section9{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            margin: 100px 0 0 0;
+            .content{
+                width: 100%;
+                cursor: pointer;
+                a{
+                    pointer-events: none;
+                    img{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,149 @@
+#section7{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            margin: 100px 0 0 0;
+            .title{
+                width: 100%;
+                text-align: center;
+                margin: 0 0 35px 0;
+                font-family: 'Montserrat';
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #000;
+                    position: relative;
+                    &::before{
+                        position: absolute;
+                        top: 3px;
+                        left: 46.6%;
+                        content:'';
+                        width: 20px;
+                        height: 21px;
+                        background: url(../../../../../../public/img/intro/icon_pick_title.png) no-repeat 0 0;
+                    }
+                }
+                p{
+                    position: relative;
+                    width: 100%;
+                    margin: 20px 0 35px 0;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #666;
+                    a{
+                        position: absolute;
+                        top: 0;
+                        right: 351.5px;
+                        display: inline-block;
+                        color: #666;
+                        padding: 0 12px 0 0;
+                        background: url(../../../../../../public/img/intro/main_btn_section_link.png) no-repeat 100% 50%;
+                        font-size: 15px;
+                    }
+                }
+            }
+            .content{
+                width: 100%;
+                .slide-container{
+                    width: 100%;
+                    .slide-view{
+                        width: 100%;
+                        overflow: hidden;
+                        .slide-wrap{
+                            width: 30% * 27;
+                            display: flex;
+                            margin: 0 0 0 ((-30% * 4) + 5%);
+                            position: relative;
+                            .slide{
+                                width: 30%;
+                                padding: 0 20px 0 0;
+                                border: 0;
+                                >div{
+                                    display: flex;
+                                    border: 1px solid #d5d5d5;
+                                    &:hover{
+                                        border-color: #000;
+                                    }
+                                    figure{
+                                        width: 270px;
+                                        cursor: pointer;
+                                        a{
+                                            pointer-events: none;
+                                            img{
+                                                width: 100%;
+                                            }
+                                        }
+                                    }
+                                    .information-box{
+                                        width: 273.4px;
+                                        padding: 35px;
+                                        position: relative;
+                                        a{
+                                            h3{
+                                                font-size: 22px;
+                                                letter-spacing: -1.4px;
+                                                color: #000;
+                                                font-weight: 600;
+                                                line-height: 28px;
+                                                display: -webkit-box;
+                                                -webkit-box-orient: vertical;
+                                                -webkit-line-clamp: 2;
+                                                overflow: hidden;
+                                                margin: 0 0 10px 0;
+                                            }
+                                            p{
+                                                font-size: 15px;
+                                                color: #666;
+                                                height: 38px;
+                                                line-height: 19px;
+                                            }
+                                            .price-box{
+                                                margin: 10px 0 0 0;
+                                                color: #ee1c25;
+                                                .start-price{
+                                                    font-size: 18px;
+                                                    font-weight: 700;
+                                                    em{
+                                                        font-size: 14px;
+                                                        font-weight: 400;
+                                                    }
+                                                }
+                                                .discount-rate{
+                                                    font-size: 20px;
+                                                    font-weight: 700;
+                                                    em{
+                                                        font-size: 14px;
+                                                        font-weight: 400;
+                                                        margin: 0 0 0 5px;
+                                                    }
+                                                }
+                                            }
+                                            .search-result-count{
+                                                position: absolute;
+                                                bottom: 35px;
+                                                left: 35px;
+                                                font-size: 13px;
+                                                color: #000;
+                                                .search-result-result-value{
+                                                    color: #ee1c25;
+                                                    font-weight: 700;
+                                                    vertical-align: baseline;
+                                                    font-family: 'Montserrat';
+                                                    margin: 0 0 0 2px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

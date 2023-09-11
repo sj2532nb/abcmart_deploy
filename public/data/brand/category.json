@@ -1,0 +1,162 @@
+{
+    "category_a":[
+        {"eng":"ADIDAS","kor":"아디다스"},
+        {"eng":"ABC SELECT","kor":"에이비씨 셀렉트"},
+        {"eng":"ABC-MART","kor":"에이비씨마트"},
+        {"eng":"ABON","kor":"더에이본"},
+        {"eng":"ADIO","kor":"에이디오"},
+        {"eng":"AKIII CLASSIC","kor":"아키 클래식"}
+        
+    ],
+    "category_b":[
+        {"eng":"BABY BLEE","kor":"베이비 블리"},
+        {"eng":"BABYZZAM","kor":"베이비잼"},
+        {"eng":"BALLOP","kor":"밸롭"},
+        {"eng":"BEARPAW","kor":"베어파우"},
+        {"eng":"BENDLS","kor":"벤들스"}
+    ],
+    "category_c":[
+        {"eng":"CONVERSE","kor":"컨버스"},
+        {"eng":"CLAYONG","kor":"클레용"},
+        {"eng":"COCOMODS","kor":"코코모즈"},
+        {"eng":"CORSO NAPOLEONE","kor":"코르소 나폴레온"},
+        {"eng":"CPGN STUDIO","kor":"꼼파뇨"}
+        
+    ],
+    "category_d":[
+        {"eng":"D.LAVAN","kor":"드라반"},
+        {"eng":"DANNER","kor":"대너"},
+        {"eng":"DESIRED","kor":"데시레드"},
+        {"eng":"DINOSOLES","kor":"다이노솔즈"},
+        {"eng":"DR.MARTENS","kor":"닥터마틴"}
+    ],
+    "category_e":[
+        {"eng":"EARP EARP","kor":"어프어프"},
+        {"eng":"EARTHUS","kor":"어더스"},
+        {"eng":"ELLDU","kor":"엘두"},
+        {"eng":"EMERGENCY","kor":"이머전시"}
+    ],
+    "category_f":[
+        {"eng":"FILA","kor":"휠라"},
+        {"eng":"FEIYUE","kor":"페이유에"},
+        {"eng":"FIND CHILLIN","kor":"파인드칠린"},
+        {"eng":"FLORIDA STUDIO","kor":"플로리다 스튜디오"},
+        {"eng":"FREAKISH BUILDING","kor":"프리키쉬빌딩"}
+        
+    ],
+    "category_g":[
+        {"eng":"GGOMOOSIN","kor":"꼬무신"},
+        {"eng":"GHOST REPUBLIC","kor":"고스트리퍼블릭"},
+        {"eng":"GIANCARIO MORELLI","kor":"장까를로 모렐리"},
+        {"eng":"GOALSTUDIO","kor":"골스튜디오"}
+    ],
+    "category_h":[
+        {"eng":"HARDCORE HAPPINESS","kor":"하드코어 해피니스"},
+        {"eng":"HAWKINS","kor":"호킨스"},
+        {"eng":"HEELTOP","kor":"힐탑"},
+        {"eng":"HEITA","kor":"헤이타"},
+        {"eng":"HUNTER","kor":"헌터"}
+    ],
+    "category_i":[
+        {"eng":"INN-STANT","kor":"인스탄트"},
+        {"eng":"IPANEMA","kor":"이파네마"},
+        {"eng":"IRIS","kor":"아이리스"}
+    ],
+    "category_j":[
+        {"eng":"J.DAUL","kor":"제이다울"},
+        {"eng":"JEEP","kor":"지프"}
+    ],
+    "category_k":[
+        {"eng":"KIWI","kor":"키위"},
+        {"eng":"KKOMOMSHOE","kor":"꼬맘슈"},
+        {"eng":"KOKA CHARM","kor":"꼬까참새"},
+        {"eng":"KOLCA","kor":"콜카"},
+        {"eng":"KOMOREBI MUSEUM","kor":"코모레비 뮤지엄"}
+    ],
+    "category_l":[
+        {"eng":" LUMI","kor":"루미"},
+        {"eng":"LACOSTE","kor":"라코스테"},
+        {"eng":"LOMC","kor":"롬크"},
+        {"eng":"LOOKATHIS","kor":"루카디스"},
+        {"eng":"LUDIS","kor":"루디스"}
+    ],
+    "category_m":[
+        {"eng":"MACMOC","kor":"마크모크"},
+        {"eng":"MADMARS","kor":"매드마르스"},
+        {"eng":"MARIELLA","kor":"마리엘라"},
+        {"eng":"MBMH","kor":"마이 베이비 마이 홈"},
+        {"eng":"MELISSA","kor":"멜리사"}
+    ],
+    "category_n":[
+        {"eng":"NIKE","kor":"나이키"},
+        {"eng":"NEW BALANCE","kor":"뉴발란스"},
+        {"eng":"NEW ERA","kor":"뉴에라"},
+        {"eng":"NUOVO","kor":"누오보"},
+        {"eng":"NUUS","kor":"누스"}
+    ],
+    "category_o":[
+        {"eng":"ODOR EATERS","kor":"오더이터"},
+        {"eng":"ONTZ","kor":"온츠"},
+        {"eng":"ORDINARY ONE","kor":"오디너리원"}
+        
+    ],
+    "category_p":[
+        {"eng":"PARKLAND","kor":"파크랜드"},
+        {"eng":"PASCOROZEN","kor":"파스코로젠"},
+        {"eng":"PAUL FRENZ","kor":"폴 프랜즈"},
+        {"eng":"PLAYIAN","kor":"플레이언"},
+        {"eng":"POLO","kor":"폴로"}
+    ],
+    "category_q":[  
+        {"eng":"","kor":""}              
+    ],
+    "category_r":[
+        {"eng":"RARAGO","kor":"라라고"},
+        {"eng":"REBLETSWM","kor":"리블렛츠더블엠"},
+        {"eng":"RED WING","kor":"레드윙"},
+        {"eng":"REEBOK","kor":"리복"},
+        {"eng":"REVE BY REVE","kor":"레브바이레브"}
+    ],
+    "category_s":[
+        {"eng":"SAINT JAMES","kor":"세인트 제임스"},
+        {"eng":"SATORISAN","kor":"사토리산"},
+        {"eng":"SAUCONY","kor":"써코니"},
+        {"eng":"SHOEBRICK","kor":"슈브릭"},
+        {"eng":"SKECHERS","kor":"스케쳐스"}
+    ],
+    "category_t":[
+        {"eng":"TEDDYPOP","kor":"테디팝"},
+        {"eng":"TEVA","kor":"테바"},
+        {"eng":"TIMBERLAND","kor":"팀버랜드"},
+        {"eng":"TOONYLAND","kor":"투니랜드"},
+        {"eng":"TOTETOTE","kor":"또떼또떼"}
+    ],
+    "category_u":[
+        {"eng":"UGG","kor":"어그"},
+        {"eng":"UGLYZ","kor":"어글리즈"},
+        {"eng":"UNPUBLIC","kor":""},
+        {"eng":"UYEON KIDS","kor":"유연 키즈"}
+    ],
+    "category_v":[
+        {"eng":"VANS","kor":"반스"},
+        {"eng":"VERBENAS","kor":"베르베나스"},
+        {"eng":"VLADO","kor":"블라도"}
+    ],
+    "category_w":[
+        {"eng":"CUSTOM ADE WOMAN","kor":"커스텀에이드 우먼"},
+        {"eng":"WING HOUSE","kor":"윙 하우스"}
+    ],
+    "category_x":[
+        {"eng":"XEXYMIX","kor":"젝시믹스"},
+        {"eng":"XEXYMIX KIDS","kor":"젝시믹스 키즈"}
+    ],
+    "category_y":[
+        {"eng":"YOI SOCKS","kor":"요이삭스"}
+    ],
+    "category_z":[
+        {"eng":"Zaxy","kor":"작시"}
+    ],
+    "category_123":[
+        {"eng":"4T2ND","kor":"포티세컨드"}
+    ]
+}

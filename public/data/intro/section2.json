@@ -1,0 +1,22 @@
+{
+    "hot_deal":[
+        {"product_code":"PRODUCT_I0001", "src":"./img/intro/intro_sec2_slide10.jpg", "title":"위더로드", "info":"WTRD2102 카터 테슬로퍼 블랙 [240~300mm]", "cost_price":"89,000", "discount_price":"40,050", "discount_rate":"55"},
+        {"product_code":"PRODUCT_I0002", "src":"./img/intro/intro_sec2_slide11.jpg", "title":"어더스", "info":"로프트 슬라이드 블랙", "cost_price":"29,000", "discount_price":"19,900", "discount_rate":"31"},
+        {"product_code":"PRODUCT_I0003", "src":"./img/intro/intro_sec2_slide12.jpg", "title":"아키클래식", "info":"퀵슬라이드2 블랙화이트", "cost_price":"59,000", "discount_price":"29,900", "discount_rate":"49"},
+        {"product_code":"PRODUCT_I0004", "src":"./img/intro/intro_sec2_slide1.jpg", "title":"컨버스", "info":"척테일러올스타 울트라 썸머 옥스", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20"},
+        {"product_code":"PRODUCT_I0005", "src":"./img/intro/intro_sec2_slide2.jpg", "title":"컨버스", "info":"척테일러올스타 울트라 썸머 옥스", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20"},
+        {"product_code":"PRODUCT_I0006", "src":"./img/intro/intro_sec2_slide3.jpg", "title":"컨버스", "info":"척테일러올스타 울트라 썸머 옥스", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20"},
+        {"product_code":"PRODUCT_I0007", "src":"./img/intro/intro_sec2_slide4.jpg", "title":"컨버스", "info":"척 70 플러스 하이", "cost_price":"109,000", "discount_price":"59,000", "discount_rate":"45"},
+        {"product_code":"PRODUCT_I0008", "src":"./img/intro/intro_sec2_slide5.jpg", "title":"앨빈클로", "info":"하와이 오버핏 반팔티 (3 COLOR)", "cost_price":"44,900", "discount_price":"21,900", "discount_rate":"51"},
+        {"product_code":"PRODUCT_I0009", "src":"./img/intro/intro_sec2_slide6.jpg", "title":"프로스펙스", "info":"람다 경량 스트레치 하프팬츠 MH-X313", "cost_price":"89,000", "discount_price":"57,000", "discount_rate":"35"},
+        {"product_code":"PRODUCT_I0010", "src":"./img/intro/intro_sec2_slide7.jpg", "title":"밸롭", "info":"워킹화 티바트3.0 네오", "cost_price":"159,000", "discount_price":"79,000", "discount_rate":"50"},
+        {"product_code":"PRODUCT_I0011", "src":"./img/intro/intro_sec2_slide8.jpg", "title":"앨빈클로", "info":"마운틴 클라이머 오버핏 반팔티 (4 COLOR)", "cost_price":"44,900", "discount_price":"21,900", "discount_rate":"51"},
+        {"product_code":"PRODUCT_I0012", "src":"./img/intro/intro_sec2_slide9.png", "title":"비에스큐티바이클래시", "info":"886 슈베린 키높이 스니커즈 빈티지화이트", "cost_price":"55,000", "discount_price":"38,900", "discount_rate":"29"},
+        {"product_code":"PRODUCT_I0013", "src":"./img/intro/intro_sec2_slide10.jpg", "title":"위더로드", "info":"WTRD2102 카터 테슬로퍼 블랙 [240~300mm]", "cost_price":"89,000", "discount_price":"40,050", "discount_rate":"55"},
+        {"product_code":"PRODUCT_I0014", "src":"./img/intro/intro_sec2_slide11.jpg", "title":"어더스", "info":"로프트 슬라이드 블랙", "cost_price":"29,000", "discount_price":"19,900", "discount_rate":"31"},
+        {"product_code":"PRODUCT_I0015", "src":"./img/intro/intro_sec2_slide12.jpg", "title":"아키클래식", "info":"퀵슬라이드2 블랙화이트", "cost_price":"59,000", "discount_price":"29,900", "discount_rate":"49"},
+        {"product_code":"PRODUCT_I0016", "src":"./img/intro/intro_sec2_slide1.jpg", "title":"컨버스", "info":"척테일러올스타 울트라 썸머 옥스", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20"},
+        {"product_code":"PRODUCT_I0017", "src":"./img/intro/intro_sec2_slide2.jpg", "title":"컨버스", "info":"척테일러올스타 울트라 썸머 옥스", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20"},
+        {"product_code":"PRODUCT_I0018", "src":"./img/intro/intro_sec2_slide3.jpg", "title":"컨버스", "info":"척테일러올스타 울트라 썸머 옥스", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20"}
+    ]
+}

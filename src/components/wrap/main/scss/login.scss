@@ -1,0 +1,186 @@
+#login{
+    width: 100%;
+    #wrap{
+        width: 100%;
+        .container{
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            .gap{
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto;
+                height: 851px;
+                padding: 120px 0 150px 0;
+                .content{
+                    width: 100%;
+                    text-align: center;
+                    .title{
+                        width: 100%;
+                        text-align: center;
+                        margin: 0 0 32px 0;
+                        h1{
+                            text-align: center;
+                            color: #000;
+                            font-family: "Montserrat";
+                            font-size: 32px;
+                            font-weight: 700;
+                        }
+                    }
+                    .substance{
+                        width: 100%;
+                        .box1{
+                            display: flex;
+                            margin: 0 0 66px 0;
+                            .box11{
+                                width: 100%;
+                                display: flex;
+                                a{
+                                    display: inline-block;
+                                    width: 296.5px;
+                                    height: 56px;
+                                    line-height: 56px;
+                                    border: 1px solid #ccc;
+                                    border-bottom: 3px solid #000;
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    color: #666;
+                                    &.on{
+                                        border: 3px solid #000;
+                                        border-bottom: 0;
+                                        color: #000;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                            .box12{
+                                width: 50%;
+                                padding: 0 20px;
+                                text-align: center;
+                                p{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: 48px;
+                                }
+                            }
+                        }
+                        .box2{
+                            width: 100%;
+                            form{
+                                width: 100%;
+                                .box21{
+                                    width: 100%;
+                                    .box211{
+                                        margin: 0 0 20px 0;
+                                        border-bottom: 1px solid rgb(213,213,213);
+                                        position: relative;
+                                        &::before{
+                                            position: absolute;
+                                            z-index: 3;
+                                            content: '';    
+                                            top: 10px;
+                                            left: 10px;                                                                                          
+                                            width: 16px;
+                                            height: 18px;
+                                            background: url(../../../../../public/img/signup/input_login_icon.png)
+                                        }
+                                        input{
+                                            border-style: none;
+                                            position: relative;
+                                            width: 100%;
+                                            height: 44px;
+                                            padding: 0 10px 0 36px;
+                                            &::placeholder{
+                                                font-size: 15px;
+                                                font-weight: 400;
+                                                font-family: 'Noto Sans KR';
+                                                color: #777;
+                                            }  
+                                        }
+                                    }
+                                    .box212{
+                                        margin: 0 0 20px 0;
+                                        border-bottom: 1px solid rgb(213,213,213);
+                                        position: relative;
+                                        &::before{
+                                            position: absolute;
+                                            z-index: 3;
+                                            content: '';
+                                            top: 10px;
+                                            left: 10px;                                                                                          
+                                            width: 16px;
+                                            height: 18px;
+                                            background: url(../../../../../public/img/signup/input_login_icon.png) 100% 0;
+                                        }
+                                        input{
+                                            border-style: none;
+                                            position: relative;
+                                            width: 100%;
+                                            height: 44px;
+                                            padding: 0 10px 0 36px;
+                                            &::placeholder{
+                                                font-size: 15px;
+                                                font-weight: 400;
+                                                font-family: 'Noto Sans KR';
+                                                color: #777;
+                                            } 
+                                        }
+                                    }
+                                    .box213{
+                                        text-align: left;
+                                        padding: 0 7px;                                       
+                                        input[type='checkbox']{
+                                            appearance: none;  
+                                            width: 20px;
+                                            height: 20px; 
+                                            border: 1px solid #ccc;
+                                            margin: 0 8px 0 0;
+                                            transition: all 0.3s;
+                                            &:hover{
+                                                border: 1px solid #000;
+                                            }
+                                        }
+                                        input[type='checkbox']:checked{
+                                            background: url(../../../../../public/img/signup/chk_icon_checked.png);
+                                            background-size: cover;
+                                        }
+                                        label{
+                                            font-size: 13px;
+                                            color: #999;
+                                        }
+                                    }
+                                }
+                                .box22{
+                                    width: 100%;
+                                    padding: 40px 0 0 0;
+                                    button{
+                                        width: 100%;
+                                        min-width: 200px;
+                                        height: 60px;
+                                        background: #000;
+                                        color: #fff;
+                                        border: 0;
+                                        font-size: 16px;
+                                        font-weight: 600;                                        
+                                    }
+                                }
+                                .box23{
+                                    padding: 40px 0 0 0;
+                                    a{
+                                        color: #999;
+                                        font-size: 14px;
+                                    }
+                                    i{
+                                        padding: 0 7px;
+                                        color: #aaa;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

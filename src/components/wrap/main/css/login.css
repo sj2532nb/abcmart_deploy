@@ -1,0 +1,200 @@
+#login {
+  width: 100%;
+}
+#login #wrap {
+  width: 100%;
+}
+#login #wrap .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#login #wrap .container .gap {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 851px;
+  padding: 120px 0 150px 0;
+}
+#login #wrap .container .gap .content {
+  width: 100%;
+  text-align: center;
+}
+#login #wrap .container .gap .content .title {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 32px 0;
+}
+#login #wrap .container .gap .content .title h1 {
+  text-align: center;
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 700;
+}
+#login #wrap .container .gap .content .substance {
+  width: 100%;
+}
+#login #wrap .container .gap .content .substance .box1 {
+  display: flex;
+  margin: 0 0 66px 0;
+}
+#login #wrap .container .gap .content .substance .box1 .box11 {
+  width: 100%;
+  display: flex;
+}
+#login #wrap .container .gap .content .substance .box1 .box11 a {
+  display: inline-block;
+  width: 296.5px;
+  height: 56px;
+  line-height: 56px;
+  border: 1px solid #ccc;
+  border-bottom: 3px solid #000;
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
+}
+#login #wrap .container .gap .content .substance .box1 .box11 a.on {
+  border: 3px solid #000;
+  border-bottom: 0;
+  color: #000;
+  font-weight: 500;
+}
+#login #wrap .container .gap .content .substance .box1 .box12 {
+  width: 50%;
+  padding: 0 20px;
+  text-align: center;
+}
+#login #wrap .container .gap .content .substance .box1 .box12 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+#login #wrap .container .gap .content .substance .box2 {
+  width: 100%;
+}
+#login #wrap .container .gap .content .substance .box2 form {
+  width: 100%;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 {
+  width: 100%;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box211 {
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  position: relative;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box211::before {
+  position: absolute;
+  z-index: 3;
+  content: "";
+  top: 10px;
+  left: 10px;
+  width: 16px;
+  height: 18px;
+  background: url(../../../../../public/img/signup/input_login_icon.png);
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box211 input {
+  border-style: none;
+  position: relative;
+  width: 100%;
+  height: 44px;
+  padding: 0 10px 0 36px;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box211 input::-moz-placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Noto Sans KR";
+  color: #777;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box211 input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Noto Sans KR";
+  color: #777;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box212 {
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid rgb(213, 213, 213);
+  position: relative;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box212::before {
+  position: absolute;
+  z-index: 3;
+  content: "";
+  top: 10px;
+  left: 10px;
+  width: 16px;
+  height: 18px;
+  background: url(../../../../../public/img/signup/input_login_icon.png) 100% 0;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box212 input {
+  border-style: none;
+  position: relative;
+  width: 100%;
+  height: 44px;
+  padding: 0 10px 0 36px;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box212 input::-moz-placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Noto Sans KR";
+  color: #777;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box212 input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Noto Sans KR";
+  color: #777;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box213 {
+  text-align: left;
+  padding: 0 7px;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box213 input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  margin: 0 8px 0 0;
+  transition: all 0.3s;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box213 input[type=checkbox]:hover {
+  border: 1px solid #000;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box213 input[type=checkbox]:checked {
+  background: url(../../../../../public/img/signup/chk_icon_checked.png);
+  background-size: cover;
+}
+#login #wrap .container .gap .content .substance .box2 form .box21 .box213 label {
+  font-size: 13px;
+  color: #999;
+}
+#login #wrap .container .gap .content .substance .box2 form .box22 {
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+#login #wrap .container .gap .content .substance .box2 form .box22 button {
+  width: 100%;
+  min-width: 200px;
+  height: 60px;
+  background: #000;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+#login #wrap .container .gap .content .substance .box2 form .box23 {
+  padding: 40px 0 0 0;
+}
+#login #wrap .container .gap .content .substance .box2 form .box23 a {
+  color: #999;
+  font-size: 14px;
+}
+#login #wrap .container .gap .content .substance .box2 form .box23 i {
+  padding: 0 7px;
+  color: #aaa;
+}

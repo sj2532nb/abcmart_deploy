@@ -1,0 +1,158 @@
+#section3{
+    width: 100%;
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            margin: 100px 0 0 0;
+            .title{
+                width: 100%;
+                text-align: center;
+                position: relative;
+                margin: 0 0 35px 0;
+                font-family: 'Montserrat';
+                h2{
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #000;
+                }
+                a{
+                    position: absolute;
+                    top: -35px;
+                    right: 0;
+                    display: inline-block;
+                    margin: 43px 0 0 0;
+                    color: #666;
+                    padding: 0 12px 0 0;
+                    background: url(../../../../../../public/img/intro/main_btn_section_link.png) no-repeat 100% 50%;
+                    font-weight: 600;
+                    font-size: 15px;
+                }
+            }
+            .content{
+                width: 100%;
+                position: relative;
+                .slide-container{
+                    width: 100%;
+                    .slide-view{
+                        width: 100%;
+                        overflow: hidden;
+                        .slide-wrap{
+                            width: 100% * 6;
+                            position: relative;
+                            display: flex;
+                            justify-content: space-between;
+                            .slide{
+                                width: 224px;
+                                cursor: pointer;
+                                a{
+                                    margin: 0 20px 0 0;
+                                    pointer-events: none;
+                                    figure{
+                                        position: relative;
+                                        img{
+                                            width: 100%;
+                                        }
+                                    }
+                                    .information-box{
+                                        width: 100%;
+                                        padding: 15px 10px 0 10px;
+                                        h3{
+                                            width: 100%;
+                                            margin: 4px 0 0 0;
+                                            font-size: 15px;
+                                            font-weight: 600;
+                                            color: #000;
+                                            line-height: 120%;
+                                        }
+                                        p{
+                                            color: #666;
+                                            margin: 8px 0 0 0;
+                                            font-size: 14px;
+                                            height: 38px;
+                                            line-height: 19px;
+                                        }
+                                        .price-box{
+                                            margin: 9px 0 0 0;
+                                            .product-price{
+                                                font-size: 19px;
+                                                color: #000;
+                                                font-weight: 700;
+                                                em{
+                                                    font-size: 12px;
+                                                    font-weight: 500;
+                                                }
+                                            }
+                                            .cost-price{
+                                                color: #999;
+                                                font-size: 14px;
+                                                vertical-align: bottom;
+                                                em{
+                                                }
+                                            }
+                                            .discount-price{
+                                                font-size: 20px;
+                                                margin: 0 0 0 8px;
+                                                color: #ee1c25;
+                                                font-weight: 700;
+                                                em{
+                                                    font-size: 12px;
+                                                    font-weight: 500;
+                                                }
+                                            }
+                                            .discount-rate{
+                                                margin: 0 0 0 2px;
+                                                color: #ee1c25;
+                                                vertical-align: bottom;
+                                                font-size: 14px;
+                                                em{
+                                                    vertical-align: top;
+                                                }
+                                            }
+                                        }
+                                        .icon_box{
+                                            display: inline-block;
+                                            width: 44px;
+                                            height: 20px;
+                                            margin: 19px 3px 0 0;
+                                            position: relative;
+                                            overflow: hidden;
+                                            &.delivery{
+                                                width: 64px;
+                                            }
+                                            img{
+                                                position: absolute;
+                                                top: 0;
+                                                right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                button{
+                    position: absolute;
+                    top: 98px;
+                    width: 15px;
+                    height: 29px;
+                    background: url(../../../../../../public/img/intro/main_btn_abc_swiper.png) no-repeat 0 0;
+                    border: 0;
+                    cursor: pointer;
+                    &.prev-btn{
+                        left: -40px;
+                        background-position: -15px 0;
+                        opacity: 0.4;
+                    }
+                    &.next-btn{
+                        right: -40px;
+                        background-position: 0 0;
+                    }
+                }
+            }
+        }
+    }
+}

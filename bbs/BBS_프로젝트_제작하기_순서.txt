@@ -1,0 +1,76 @@
+[1] 데이터베이스 이름 BBS
+- user 테이블
+
+create table abcuser (
+    userId      VARCHAR(16) NOT NULL,
+    userPw      VARCHAR(16) NOT NULL,
+    userName    VARCHAR(30) NOT NULL,
+    userEmail   VARCHAR(250),
+    userPhone   VARCHAR(11),
+    PRIMARY KEY(userId)
+);
+
+create table abcbbs (
+    bbsId int NOT NULL,
+    userId      VARCHAR(16) NOT NULL,
+    subject      VARCHAR(30) NOT NULL,
+    content    VARCHAR(4096) NOT NULL,
+    writeDate   DATETIME,
+    deleteOk   int,
+    hit   int,
+    PRIMARY KEY(bbsId)
+);
+
+[2] 프로젝트 생성
+- 톰켓서버연동
+- 서버등록(프로젝트 bbs)
+
+[3] WEBAPP
+- index.jsp 만들고 테스 실행하기 웹브라우저에 띄우기
+
+[4] 자바빈즈(DTO) 만들기
++
+- UserDTO  
+
+    userId
+    userPw 
+    userName
+    userEmail
+
+- source => Getter & Setter 생성
+
+[5] JDBC => JDBC드라이버 .jar  웹앱라이브러리 복사 붙여넣기
+- 서버 다시 실행한다.
+
+[6] JDBC드라이버 .jar 등록 설정
+-프로젝트이름 선택 => 마우스 오른쪽 => 빌드패스(Build Path) => 컨피그필드패스(Config Build Path) 
+=> 라이브러리(liblary) => 버튼(Add JAR) 클릭 => 경로(bbs > ..... SRC  ... WEBAPP .. WEBINF > liblary ) 그리고 파일 선택 복사붙여넣기한 JDBC드라이버 .jar 파일을 선택한다.
+
+[7] UserDAO 만들기
+- JDBC URL
+- DBID
+- DBPW
+- froName
+- connection =>  설정
+
+
+[8] 로그인 구현 [컨트롤러]
+    // 로그인 => 아이디, 비밀번호 입력받아서 처리
+	// login()  
+	// 1 로그인 성공
+	// 0 비밀번호 불일치
+	//-1 아이디 불일치
+	//-2 데이터베이스 오류
+	
+    // 아이디 입력값 받아서 비교하고 
+	// 아이디가 맞으면 그다음 비밀번호를 비교한다. 그리고 로그인 구현
+
+1. 로그인
+로그인,로그아웃
+
+2. 게시판
+- 글쓰기
+- 글보기
+- 글수정
+- 글삭제
+- 글목록

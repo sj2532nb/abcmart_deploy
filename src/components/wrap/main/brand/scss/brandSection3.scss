@@ -1,0 +1,733 @@
+#brandSection3{
+    width: 100%;
+    padding: 0 0 100px 0;
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        .gap{
+            .content{
+                display: flex;
+                position: relative;
+                .left{
+                    width: 250px;   
+                    .left-content{
+                        padding-top: 55px;
+                        position: sticky;
+                        top: 0;
+                        .left-title{
+                        
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            border-bottom: 2px solid #000;
+                            height: 40px;
+                            h2{
+                                font-size: 18px;
+                                color: #000;
+                                font-weight: 600;
+                            }
+                            button{
+                                cursor: pointer;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                height: 100%;  
+                                padding: 0 0 0 24px;  
+                                border: 0;                        
+                                background: 0;
+                                span{
+                                    position: absolute;
+                                    left: 0;
+                                }
+                                h3{
+                                    font-size: 15px;
+                                    color: #666;
+                                }
+                            }
+                        }
+                        dl{
+                            width: 100%;
+                            font-family: 'Noto Sans KR';
+                            dt{
+                                cursor: pointer;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                background: #fff;
+                                width: 100%;
+                                height: 74px;
+                                padding: 0 33px 0 0;
+                                transition: all 0.3s;
+                                font-size: 15px;
+                                font-weight: 500;
+                                color: #000;
+                                
+                                span{
+                                    position: absolute;
+                                    top: 50%;
+                                    right: 10px;
+                                    transform: translateY(-50%);
+                                    width: 13px;
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                                &.on{
+                                    span{
+                                        img{
+                                            transform: rotate(-180deg);
+                                        }
+                                    }
+                                }
+                            }
+                            dd{
+                                width: 100%;
+                                width: 100%;
+                                height: 0;                                                                
+                                border-bottom: 1px solid #d5d5d5;
+                                transition: height 0.3s;
+                                overflow: hidden;
+                                
+                                ul{
+                                    width: 100%;
+                                    display: flex;
+                                    flex-flow: row wrap;
+                                    label{
+                                        cursor: pointer;
+                                    }
+                                    input{
+                                        cursor: pointer;
+                                    }
+                                    .category-li{
+                                        width: 100%;
+                                        height: 43px;
+                                        display: flex;
+                                        align-items: center;  
+                                        padding: 0 10px;    
+                                        color: #333;
+                                        font-weight: 500;                                  
+                                        label{
+                                            width: 100%;
+                                            height: 100%;
+                                            display: flex;
+                                            align-items: center;
+                                            
+                                            >input{
+                                                margin: 0 0 0 5px;
+                                                appearance: none;
+                                                width: 13px;
+                                                height: 10px;
+                                                &:checked{
+                                                    background: url(../../../../../../public/img/brand/chk_icon_checked_red.png) no-repeat 50% 50%;
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .gender-li{
+                                        width: 50%;
+                                        height: 30px;
+                                        padding: 0 0 3px 0;
+                                        position: relative;
+                                        color: #666;
+                                        font-size: 13px;
+                                        font-weight: 500;
+                                        font-family: "Montserrat";
+                                        &:nth-child(2){
+                                            padding-left: 3px;
+                                        }
+                                        input{
+                                            
+                                            appearance: none;
+                                            width: 100%;
+                                            height: 100%;
+                                            border: 1px solid #d5d5d5;  
+                                            &:checked{
+                                                border: 1px solid #ee1c25;                                                    
+                                            }
+                                            &:checked+label{
+                                                color:red;
+                                            }
+                                        }
+                                        label{
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            display: flex;
+                                            width: 100%;
+                                            height: 27px;
+                                            align-items: center;
+                                            justify-content: center;
+                                            
+                                            
+                                        }
+                                        
+                                    }
+                                    .size-li{
+                                        width: 25%;
+                                        height: 24px;
+                                        padding: 1px;
+                                        position: relative;
+                                        color: #666;
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        font-family: "Montserrat";
+                                        input{
+                                            
+                                            appearance: none;
+                                            width: 100%;
+                                            height: 100%;
+                                            border: 1px solid #d5d5d5;  
+                                            &:checked{
+                                                border: 1px solid #ee1c25;                                                    
+                                            }
+                                            &:checked+label{
+                                                color:red;
+                                            }
+                                        }
+                                        label{
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            display: flex;
+                                            width: 100%;
+                                            height: 24px;
+                                            align-items: center;
+                                            justify-content: center;
+                                            
+                                            
+                                        }
+                                    }
+                                    .color-li{
+                                        width: 25px;
+                                        height: 25px;
+                                        margin: 5px 10px 0 0;
+                                        label{
+                                            width: 100%;
+                                            height: 100%;
+                                            input{
+                                                width: 100%;
+                                                height: 100%;
+                                                appearance: none;
+                                                border: 1px solid  #d5d5d5;
+                                                &:checked{
+                                                    outline: 1px solid #000;
+                                                    outline-offset: 1px;
+                                                }
+                                            }
+                                            
+                                        }
+                                        &:nth-child(1){
+                                            label{
+                                                input{
+                                                    background-color: #fff;
+                                                }
+                                            }
+                                            
+                                        }
+                                        &:nth-child(2){
+                                            label{
+                                                input{
+                                                    background-color: #000;
+                                                }
+                                            }
+                                            
+                                        }
+                                        &:nth-child(3){
+                                            label{
+                                                input{
+                                                    background:url(../../../../../../public/img/brand/color.png)no-repeat 50% 50%;
+                                                }
+                                            }                                            
+                                        }
+                                    }
+                                    .price-li{
+                                        width: 50%;
+                                        height: 30px;
+                                        padding: 0 0 3px 0;
+                                        position: relative;
+                                        color: #666;
+                                        font-size: 13px;
+                                        font-weight: 500;
+                                        font-family: "Montserrat";
+                                        &:nth-child(even){
+                                            padding-left: 3px;
+                                        }
+                                        input{
+                                            
+                                            appearance: none;
+                                            width: 100%;
+                                            height: 100%;
+                                            border: 1px solid #d5d5d5;  
+                                            &:checked{
+                                                border: 1px solid #ee1c25;                                                    
+                                            }
+                                            &:checked+label{
+                                                color:red;
+                                            }
+                                        }
+                                        label{
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            display: flex;
+                                            width: 100%;
+                                            height: 27px;
+                                            align-items: center;
+                                            justify-content: center;
+                                            
+                                            
+                                        }
+                                        
+                                    }
+                                }
+                                &.on{
+                                    border-bottom: 1px solid #d5d5d5;
+                                }
+                            }
+                            &:nth-child(2){
+                                dd{
+                                    &.on{
+                                        height: 230px;
+                                        
+                                    }
+                                }  
+                            }
+                            
+                            &:nth-child(3){
+                                dd{
+                                    &.on{
+                                        height: 90px;
+                                    }
+                                }  
+                            }
+                            &:nth-child(4){
+                                dd{
+                                    &.on{
+                                        height: 200px;
+                                    }
+                                }  
+                            }
+                            &:nth-child(5){
+                                dd{
+                                    &.on{
+                                        height: 50px;
+                                    }
+                                }  
+                            }
+                            &:nth-child(6){
+                                dd{
+                                    &.on{
+                                        height: 120px;
+                                    }
+                                }  
+                            }
+                        }
+                       
+                    }
+                    
+                }
+                .right{
+                    
+                    padding: 0 0 0 55px;
+                    width: 950px;
+                    label, input{
+                        cursor: pointer;
+                    }
+                    .right-title{
+                        margin: 55px 0 0 0;
+                        background: #fff;
+                        border-bottom: 2px solid #000;
+                        display: flex;
+                        align-items: center;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            li{
+                                display: flex;
+                                position: relative;
+                                label{
+                                    margin: 0 29px 0 0;
+                                    font-size: 15px;
+                                    color: #000;
+                                    input{
+                                        margin: 0 8px 0 0;
+                                        appearance: none;
+                                        width: 20px;
+                                        height: 20px;
+                                        border: 1px solid #ddd;
+                                        &:checked{
+                                            background: url(../../../../../../public/img/brand/chk_icon_checked.png)no-repeat 50% 50%;
+                                        }
+                                    }   
+                                }
+                                
+                                .select-box{
+                                    cursor: pointer;
+                                    width: 170px;
+                                    height: 38px;
+                                    
+                                    input[type="text"]{
+                                        cursor: pointer;
+                                        height: 100%;
+                                        width: 100%;
+                                        border: 0;
+                                        padding: 0 15px;
+                                        color: #000;
+                                        font-size: 14px;
+                                        font-family: "Montserrat";
+                                        font-weight: 600;
+                                        &:focus{
+                                            outline: 0;
+                                        }
+                                    }
+                                    span{
+                                        position: absolute;
+                                        top: 50%;
+                                        right: 80px;
+                                        transform: translateY(-50%);
+                                        pointer-events: none;
+                                        &.on{
+                                            transform: translateY(-30%) rotate(180deg);
+                                        }
+                                    }
+                                    dl{
+                                        position: absolute;
+                                        z-index: 2;
+                                        top: 40px;
+                                        width: 170px;
+                                        height: 0;                                        
+                                        background: #fff;
+                                        border: 1px solid #ccc;
+                                        border-top: 0;
+                                        transition: all 0.3s;
+                                        overflow-y: auto;
+                                        dd{
+                                            display: flex;
+                                            align-items: center;
+                                            width: 100%; 
+                                            height: 38px;
+                                            padding: 0 15px;  
+                                            transition: all 0.3s; 
+                                            color: #b5b5b5;
+                                            font-family: "Montserrat";
+                                            &:hover, &.on{
+                                                background: #f4f4f4;
+                                                color: #000;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                        &.on{
+                                            height: 120px;
+                                           
+                                        }
+                                        
+                                    }
+                                    
+                                    
+                                }
+                                .radio-box{
+                                    display: flex;
+                                    align-items: center;
+                                    input[type="radio"]{
+                                        width: 20px;
+                                        height: 20px;
+                                        margin: 0 0 0 15px;
+                                        appearance: none;
+                                        opacity: 0.2;
+                                        &:checked{
+                                            opacity: 1;
+                                        }
+                                        &:nth-child(1){
+                                            background: url(../../../../../../public/img/brand/btn_icon_prod_grid.png) no-repeat 0 50%;
+                                        }
+                                        &:nth-child(2){
+                                            background: url(../../../../../../public/img/brand/btn_icon_prod_grid.png) no-repeat 50% 50%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .title-inner{  
+                        border-bottom: 1px solid #ddd;
+                        width: 100%;
+                        height: 0;      
+                        display: flex;
+                        align-items: center;
+                        transition: all 0.3s;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            li{
+                                button{
+                                    cursor: pointer;
+                                    width: 95px;
+                                    height: 38px;
+                                    background: 0;
+                                    border-radius: 19px;
+                                    font-size: 13px;
+                                    font-family: "Montserrat";
+                                    padding: 0 0 0 5px;
+                                    margin: 0 10px 0 0;
+                                    img{
+                                        margin: 0 5px;
+                                    }
+                                }
+                                .inner-btn1{
+                                    border: 1px solid #f6bec3;
+                                    color: #f62437; 
+                                }
+                                .inner-btn2{
+                                    border: 1px solid #a5a5a5;
+                                    color: #666;
+                                }
+                            }
+                        }
+                        &.on{
+                            height: 80px;
+                        }
+                    }
+                    .right-content{
+                        width: 100%;
+                        position: relative;
+                        p{
+                            margin: 28px 0 0 0;
+                            color: #000;
+                            font-size: 15px;
+                            font-family: 'Noto Sans KR';
+                            display: flex;
+                            align-items: center;
+                            strong{
+                                margin: 0 0 0 3px ;
+                                color: #ee1c25;
+                                font-weight: 600;
+                            }
+                        }
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            flex-flow: row wrap;
+                            margin: 24px 0 0 0;
+                            li{
+                                width: 31.8%;
+                                margin: 0 0 5px 20px;
+                                height: 540px;
+                                &:nth-child(3n+1){
+                                    margin: 0 0 5px 0 ;
+                                }
+                                &.on{
+                                    width: 48.8%;
+                                    margin: 0 0 5px 20px;
+                                    height: 692px;
+                                    &:nth-child(odd){
+                                        margin: 0 0 5px 0;
+                                    }
+                                }
+                                &:hover{
+                                    outline: 1px solid #000;
+                                    
+                                    .inner-box{
+                                        display: block;
+                                    }
+                                }
+                                
+                                .img-box{
+                                    position: relative;
+                                    img{
+                                        width: 100%;
+                                    }
+                                    span{
+                                        position: absolute;
+                                        top: 15px;
+                                        right: 15px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        height: 52px;
+                                        width: 44px;
+                                        color: #fff;
+                                        font-size: 24px;
+                                        font-weight: 600;
+                                        img{
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                                .info-box{
+                                    padding: 10px 10px;
+                                    font-family: 'Spoqa Han Sans';
+                                    h3{
+                                        color: #000;
+                                        font-size: 15px;
+                                        font-weight: 600;
+                                        margin: 4px 0 0 0;
+                                    }
+                                    h4{
+                                        color: #666;
+                                        margin: 8px 0 0 0;
+                                    }
+                                    h2{
+                                        color: #000;
+                                        font-size: 19px;
+                                        font-weight: 600;
+                                        margin: 9px 0 0 0;
+                                        height: 20px;
+                                        i{
+                                           text-decoration: line-through; 
+                                           font-size: 14px;
+                                           color: #999;
+                                           font-weight: 400;
+                                           margin: 0 10px 0 0;
+                                        }
+                                        strong{
+                                            font-weight: 600;
+                                            color: #ee1c25;
+                                        }
+                                        em{
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                            
+                                        }
+                                        
+                                    }
+                                    .badge-box{
+                                        display: flex;
+                                        margin: 19px 0 0 0;
+                                        span{
+                                            position: relative;
+                                            overflow: hidden;
+                                            height: 20px;
+                                            margin: 0 3px 0 0;
+                                            display: flex;
+                                            align-items: center;
+                                        }
+                                    }
+                                }  
+                                .inner-box{
+                                    display: none;
+                                    z-index: 2;
+                                    background: #fff;
+                                    .inner-row1{                                        
+                                        padding: 5px 15px;
+                                        dl{
+                                            border-top: 1px dotted #aaa;
+                                            padding: 5px 0 0 0;
+                                            display: flex;
+                                            flex-flow: row wrap;
+                                            
+                                            dd{
+                                                width: 16.667%;
+                                                padding: 5px;
+                                                font-size: 13px;
+                                            }
+                                        }
+                                    }
+                                    .inner-row2{
+                                        display: flex;
+                                        height: 42px;
+                                        
+                                        .inner-left{
+                                            width: 52%;
+                                            display: flex;
+                                            justify-content: space-around;
+                                            align-items: center;
+                                            border-top: 1px solid #000;
+                                            
+                                            
+                                            input[type="checkbox"]{
+                                                cursor: pointer;
+                                                display: block;
+                                                width: 24px;
+                                                height: 22px;
+                                                overflow: hidden;
+                                                appearance: none;
+                                                
+                                                &:nth-child(1){
+                                                    background: url(../../../../../../public/img/brand/prod_icon_list_util_btn.png)no-repeat 50% 0;
+                                                    &:hover{
+                                                        background-position: 50% 50%;
+                                                    }
+                                                    
+                                                }
+                                                &:nth-child(2){
+                                                    background: url(../../../../../../public/img/brand/prod_icon_list_util_btn.png)no-repeat;
+                                                    &:hover{
+                                                        background-position: 0 50%;
+                                                    }
+                                                    &:checked{
+                                                        background-position: 0 100%;
+                                                    }
+                                                }
+                                                &:nth-child(3){
+                                                    background: url(../../../../../../public/img/brand/prod_icon_list_util_btn.png)no-repeat 100% 0;
+                                                    &:hover{
+                                                        background-position: 100% 50%;
+                                                    }
+                                                }
+                                            }
+
+                                        }
+                                        .inner-right{
+                                            width: 48%;
+                                            button{
+                                                cursor: pointer;
+                                                height: 100%;
+                                                width: 100%;
+                                                border: 0;
+                                                background: #000;
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                }                           
+                            }
+                        }
+                        .page-button-box{
+                        position: absolute;
+                        bottom:-50px;
+                        width:100%;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        a {
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width:30px;
+                            height:30px;
+                            color:#333;
+                            font-size: 14px;
+                            font-weight: 600;
+                            margin: 0 5px;
+                            cursor: pointer;
+                            background: #fff;
+                            &.on{ // 현재 클릭된버튼 또는 현재버튼 current
+                                background-color: #000;
+                                border-color:#000;
+                                color:#fff;
+                            }
+                        }
+                        .prev-btn-box{
+                            width: 30px;
+                            height: 30px;
+                            margin: 0 25px 0 0;
+                        }
+                        .next-btn-box{
+                            width: 30px;
+                            height: 30px;
+                            margin: 0 0 0 15px;
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "best_brand_nike":[
+        {"product_code":"PRODUCT_I0059", "src":"./img/intro/intro_sec8_slide1_1.jpg", "title":"나이키", "info":"나이키 감마 포스", "product_price":"119,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"ONLY", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0060", "src":"./img/intro/intro_sec8_slide1_2.jpg", "title":"나이키", "info":"나이키 감마 포스", "product_price":"119,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"ONLY", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0061", "src":"./img/intro/intro_sec8_slide1_3.jpg", "title":"나이키", "info":"나이키 감마 포스", "product_price":"119,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"ONLY", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0062", "src":"./img/intro/intro_sec8_slide1_4.jpg", "title":"나이키", "info":"유 나이키 에브리데이 쿠시 크루 3페어", "product_price":"22,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"}
+    ],
+    "best_brand_adidas":[
+        {"product_code":"PRODUCT_I0063", "src":"./img/intro/intro_sec8_slide2_1.jpg", "title":"아디다스", "info":"슈퍼스타", "product_price":"139,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0064", "src":"./img/intro/intro_sec8_slide2_2.jpg", "title":"아디다스", "info":"슈퍼스타", "product_price":"139,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0065", "src":"./img/intro/intro_sec8_slide2_3.jpg", "title":"아디다스", "info":"그라다스", "product_price":"79,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"BEST", "coupon":"", "only":"ONLY", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0066", "src":"./img/intro/intro_sec8_slide2_4.jpg", "title":"아디다스", "info":"그라다스", "product_price":"79,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"ONLY", "delivery":"아트배송"}
+    ],
+    "best_brand_vans":[
+        {"product_code":"PRODUCT_I0067", "src":"./img/intro/intro_sec8_slide3_1.jpg", "title":"반스", "info":"클래식 슬립-온", "product_price":"49,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0068", "src":"./img/intro/intro_sec8_slide3_2.jpg", "title":"반스", "info":"스탠스", "product_price":"69,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"ONLY", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0069", "src":"./img/intro/intro_sec8_slide3_3.jpg", "title":"반스", "info":"코그", "product_price":"", "cost_price":"49,000", "discount_price":"39,000", "discount_rate":"20", "best":"", "coupon":"", "only":"ONLY", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0070", "src":"./img/intro/intro_sec8_slide3_4.jpg", "title":"반스", "info":"핀", "product_price":"", "cost_price":"49,000", "discount_price":"39,000", "discount_rate":"20", "best":"", "coupon":"", "only":"ONLY", "delivery":"아트배송"}
+    ],
+    "best_brand_converse":[
+        {"product_code":"PRODUCT_I0071", "src":"./img/intro/intro_sec8_slide4_1.jpg", "title":"컨버스", "info":"척 70 하이", "product_price":"", "cost_price":"99,000", "discount_price":"69,300", "discount_rate":"30", "best":"BEST", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0072", "src":"./img/intro/intro_sec8_slide4_2.jpg", "title":"컨버스", "info":"척 70 옥스", "product_price":"", "cost_price":"95,000", "discount_price":"66,500", "discount_rate":"30", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0073", "src":"./img/intro/intro_sec8_slide4_3.jpg", "title":"컨버스", "info":"척테일러올스타 하이", "product_price":"", "cost_price":"69,000", "discount_price":"55,000", "discount_rate":"20", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0074", "src":"./img/intro/intro_sec8_slide4_4.jpg", "title":"컨버스", "info":"척테일러올스타 옥스", "product_price":"", "cost_price":"65,000", "discount_price":"52,000", "discount_rate":"20", "best":"", "coupon":"", "only":"", "delivery":"아트배송"}
+    ],
+    "best_brand_crocs":[
+        {"product_code":"PRODUCT_I0075", "src":"./img/intro/intro_sec8_slide5_1.jpg", "title":"크록스", "info":"클래식 올 터레인 클로그", "product_price":"", "cost_price":"69,900", "discount_price":"55,000", "discount_rate":"21", "best":"", "coupon":"쿠폰", "only":"ONLY", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0076", "src":"./img/intro/intro_sec8_slide5_2.jpg", "title":"크록스", "info":"클래식 올 터레인 클로그", "product_price":"", "cost_price":"69,900", "discount_price":"55,000", "discount_rate":"21", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0077", "src":"./img/intro/intro_sec8_slide5_3.jpg", "title":"크록스", "info":"클래식 올 터레인 클로그", "product_price":"", "cost_price":"69,900", "discount_price":"55,000", "discount_rate":"21", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0078", "src":"./img/intro/intro_sec8_slide5_4.jpg", "title":"크록스", "info":"클래식 올 터레인 클로그", "product_price":"", "cost_price":"69,900", "discount_price":"55,000", "discount_rate":"21", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"}
+    ],
+    "best_brand_nuovo":[
+        {"product_code":"PRODUCT_I0079", "src":"./img/intro/intro_sec8_slide6_1.jpg", "title":"누오보", "info":"하토르 3", "product_price":"", "cost_price":"54,000", "discount_price":"37,000", "discount_rate":"30", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0080", "src":"./img/intro/intro_sec8_slide6_2.jpg", "title":"누오보", "info":"라트리 4", "product_price":"", "cost_price":"69,000", "discount_price":"48,000", "discount_rate":"30", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0081", "src":"./img/intro/intro_sec8_slide6_3.jpg", "title":"누오보", "info":"칼리 5.5", "product_price":"", "cost_price":"69,000", "discount_price":"48,000", "discount_rate":"30", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0082", "src":"./img/intro/intro_sec8_slide6_4.jpg", "title":"누오보", "info":"테이아 1", "product_price":"", "cost_price":"69,000", "discount_price":"48,000", "discount_rate":"30", "best":"", "coupon":"", "only":"", "delivery":"아트배송"}
+    ],
+    "best_brand_abcselect":[
+        {"product_code":"PRODUCT_I0083", "src":"./img/intro/intro_sec8_slide7_1.jpg", "title":"에이비씨 셀렉트", "info":"마일드", "product_price":"", "cost_price":"49,000", "discount_price":"39,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0084", "src":"./img/intro/intro_sec8_slide7_2.jpg", "title":"에이비씨 셀렉트", "info":"마일드", "product_price":"", "cost_price":"49,000", "discount_price":"39,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0085", "src":"./img/intro/intro_sec8_slide7_3.jpg", "title":"에이비씨 셀렉트", "info":"데이소프 듀얼 텅", "product_price":"", "cost_price":"45,000", "discount_price":"36,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0086", "src":"./img/intro/intro_sec8_slide7_4.jpg", "title":"에이비씨 셀렉트", "info":"데이소프 듀얼 투웨이", "product_price":"", "cost_price":"49,000", "discount_price":"39,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"}
+    ],
+    "best_brand_puma":[
+        {"product_code":"PRODUCT_I0087", "src":"./img/intro/intro_sec8_slide8_1.jpg", "title":"푸마", "info":"웨이브 플립", "product_price":"", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0088", "src":"./img/intro/intro_sec8_slide8_2.jpg", "title":"푸마", "info":"웨이브 플립", "product_price":"", "cost_price":"39,000", "discount_price":"31,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0089", "src":"./img/intro/intro_sec8_slide8_3.jpg", "title":"푸마", "info":"소프트라이드 프로 슬라이드 V", "product_price":"", "cost_price":"49,000", "discount_price":"39,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0090", "src":"./img/intro/intro_sec8_slide8_4.jpg", "title":"푸마", "info":"소프트라이드 샌들 퓨어", "product_price":"49,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"}
+    ]
+}

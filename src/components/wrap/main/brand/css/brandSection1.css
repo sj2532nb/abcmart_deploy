@@ -1,0 +1,183 @@
+#brandSection1 {
+  width: 100%;
+}
+#brandSection1 .container {
+  width: 100%;
+}
+#brandSection1 .container .gap {
+  width: 100%;
+}
+#brandSection1 .container .gap .title {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+#brandSection1 .container .gap .title .row1 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+#brandSection1 .container .gap .title .row1 ul {
+  display: flex;
+}
+#brandSection1 .container .gap .title .row1 ul li {
+  padding: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+}
+#brandSection1 .container .gap .title .row1 ul li:nth-child(1) {
+  padding: 0 0 0 17px;
+}
+#brandSection1 .container .gap .title .row1 ul li span {
+  display: flex;
+  align-items: center;
+  width: 12px;
+  height: 11px;
+  overflow: hidden;
+  margin: 0 3px 0 0;
+  pointer-events: none;
+}
+#brandSection1 .container .gap .title .row1 ul li span img {
+  pointer-events: none;
+}
+#brandSection1 .container .gap .title .row1 ul li:nth-child(2) span img, #brandSection1 .container .gap .title .row1 ul li:nth-child(3) span img {
+  transform: translateX(-12px);
+}
+#brandSection1 .container .gap .title .row2 {
+  margin: 18px 0 0 0;
+}
+#brandSection1 .container .gap .title .row2 .row2-container {
+  position: relative;
+  color: #000;
+  font-size: 38px;
+  font-weight: 700;
+}
+#brandSection1 .container .gap .title .row2 .row2-container span {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+#brandSection1 .container .gap .title .row2 .row2-container span button {
+  cursor: pointer;
+  border: 0;
+  background: 0;
+  width: 27px;
+  height: 24px;
+  overflow: hidden;
+  margin: 0 0 0 15px;
+}
+#brandSection1 .container .gap .title .row2 .row2-container span button:first-child {
+  margin: 0;
+}
+#brandSection1 .container .gap .title .row2 .row2-container span button.on img {
+  transform: translateX(-27px);
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box {
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 38px;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+  border-radius: 19px;
+  background: #fff;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li {
+  width: 9px;
+  height: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li a {
+  display: flex;
+  align-items: center;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(2) {
+  width: 20px;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(2) img {
+  transform: translateX(-49px);
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(3) {
+  width: 11px;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(3) img {
+  transform: translateX(-84px);
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(4) {
+  width: 15px;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(4) img {
+  transform: translateX(-69px);
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(5) {
+  width: 22px;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(5) img {
+  transform: translateX(-95px);
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(6) {
+  width: 20px;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(6) img {
+  transform: translateX(-29px);
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(7) {
+  width: 28px;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box ul li:nth-child(7) a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+}
+#brandSection1 .container .gap .title .row2 .row2-container .inner-box.on {
+  width: 270px;
+  border-color: #000;
+}
+#brandSection1 .container .gap .content {
+  margin: 44px 0 0 0;
+  width: 100%;
+  height: 388px;
+  position: relative;
+}
+#brandSection1 .container .gap .content .txt-box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+  color: #fff;
+  font-family: "Noto Sans";
+  line-height: 1.5;
+}
+#brandSection1 .container .gap .content .txt-box h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+#brandSection1 .container .gap .content .txt-box p {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+#brandSection1 .container .gap .content .logo-box {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0 0 0;
+}
+#brandSection1 .container .gap .content .logo-box img {
+  width: 70px;
+}
+#brandSection1 .container .gap .content .background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}

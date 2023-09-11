@@ -1,0 +1,653 @@
+#service{
+    width: 100%;
+    padding: 0 0 150px 0;
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            .title{
+                width: 100%;
+                .row1{
+                    height: 60px;
+                    display: flex;
+                    align-items: center;
+                    ul{
+                        display: flex;
+                        li{
+                            padding: 0 0 0 10px;
+                            display: flex;
+                            align-items: center;
+                            &:nth-child(1){
+                                padding: 0;
+                            }
+                            span{
+                                display: flex;
+                                align-items: center;
+                                width: 12px;
+                                height: 11px;
+                                overflow: hidden;
+                                margin: 0 3px 0 0;
+                                pointer-events: none;
+                                img{
+                                    pointer-events: none;
+                                }
+                            }
+                            &:nth-child(2),
+                            &:nth-child(3){
+                                span{
+                                    img{
+                                        transform: translateX(-12px);
+                                    }
+                                }
+                            }
+                            a{
+                                color: #999;
+                                font-size: 13px;
+                            }
+                            &:nth-child(3){
+                                a{
+                                    color: #000;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+                .row2{
+                    margin: 18px 0 0 0;
+                    h1{
+                        font-size: 32px;
+                        color: #000;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .content{
+                display: flex;
+                margin: 50px 0 0 0;
+                .left{
+                    width: 220px;
+                    .row1{
+                        ul{
+                            li{
+                                margin: 0 0 25px 0;
+                                button{
+                                    position: relative;
+                                    font-family: 'Noto Sans';
+                                    font-size: 20px;
+                                    color: #000;
+                                    font-weight: 600;
+                                    transition: all 0.3s;
+                                    background: none;
+                                    border: 0;
+                                    &::before{
+                                        content: '';
+                                        position: absolute;
+                                        bottom: 0;
+                                        left: 50%;
+                                        transform: translateX(-50%);
+                                        height: 1px;
+                                        width: 0;
+                                        background-color: #ee1c25;
+                                        transition: all 0.3s;
+                                    }
+                                    &:hover, &.on{
+                                        color: #ee1c25;
+                                        &::before{
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .row2{
+                        width: 160px;
+                        .info-box{
+                            margin: 69px 0 0 0;
+                            padding: 29px 0 0 0;
+                            border-top: 1px solid #ddd;
+                            h3{
+                                color: #666;
+                                font-size: 15px;
+                                font-weight: 500;
+                                span{
+                                    margin: 0 5px 0 0;
+                                    img{}
+                                }
+                            }
+                            h4{
+                                margin: 11px 0 0 0;
+                                color: #000;
+                                font-size: 16px;
+                            }
+                            ul{
+                                margin: 11px 0 0 0;
+                                display: flex;
+                                li{
+                                    color: #777;
+                                    font-size: 13px;
+                                    line-height: 1.4;
+                                    margin: 0 10px 0 0;
+                                }
+                            }
+                            p{
+                                color: #999;
+                                font-size: 13px;
+                                line-height: 1.4;
+                            }
+                        }
+                    }
+                }
+                .right{
+                    width: 980px;
+                    .sub-title{
+                        h2{         
+                            font-family: 'Montserrat';            
+                            color: #000;
+                            font-size: 22px;
+                            font-weight: 600;
+                            letter-spacing: 0;
+                        }
+                    }
+                    .notice-content{
+                        margin: 14px 0 0 0;
+                        text-align: right;
+                        position: relative;
+                        height: 700px;
+                        table{
+                            width: 100%;
+                            border-collapse: collapse;
+                            margin: 0 0 20px 0;
+                            tr{     
+                                text-align: center;                               
+                                th{
+                                    border-top: 2px solid #000;
+                                    border-bottom: 1px solid #e5e5e5;
+                                    padding: 18px 0;
+                                    color: #666;
+                                    
+                                }
+                                td{
+                                    padding: 23px 10px;
+                                    border-bottom: 1px solid #e5e5e5;
+                                    
+                                    font-size: 15px;
+                                    a{
+                                        color: #000;
+                                    }
+                                    &:nth-child(1){
+                                        width: 75px;
+                                    }
+                                    &:nth-child(2){
+                                        text-align: left;
+                                        width: 663px;
+                                    }
+                                    &:nth-child(3){
+                                        width: 121px;
+                                    }
+                                    &:nth-child(4){
+                                        width: 121px;
+                                    }
+                                }
+                            }                            
+                        }
+                        .page-button-box{
+                            
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            
+                            a {
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                width:30px;
+                                height:30px;
+                                color:#999;
+                                font-size: 13px;
+                                margin: 0 5px;
+                                cursor: pointer;
+                                font-family: 'Montserrat';      
+                                &.on{ // 현재 클릭된버튼 또는 현재버튼 current
+                                    background-color: #000;
+                                    border-color:#000;
+                                    color:#fff;
+                                }
+                            }
+                            .prev-btn-box{
+                                width: 30px;
+                                height: 30px;
+                                margin: 0 25px 0 0;
+                                display: flex;
+                                align-items: center;
+                                a{
+                                    width: 5px;
+                                    height: 8px;
+                                    overflow: hidden;
+                                    img{
+                                        transform: translateX(-2px);
+                                    }
+
+                                }
+                            }
+                            .next-btn-box{
+                                width: 30px;
+                                height: 30px;
+                                margin: 0 0 0 15px;
+                                display: flex;
+                                align-items: center;
+                                a{
+                                    width: 5px;
+                                    height: 8px;
+                                    overflow: hidden;
+                                    img{
+                                        transform: translateX(3px);
+                                    }
+
+                                }
+                            }
+                        }
+                        button{
+                            margin: -70px 0 0 0;
+                            width: 150px;
+                            height: 60px;
+                            background: #555;
+                            color: #fff;
+                            transition: all 0.3s;
+                            border: 0;
+                            font-size: 16px;
+                            font-weight: 700;
+                            &:hover{
+                                background: #000;
+                            }
+                        }
+                    }
+                    .write-content{
+                        form{
+                            ul{
+                                padding: 30px 20px;
+                                margin: 16px 0 50px 0;
+                                border-top: 2px solid #000;
+                                border-bottom: 1px solid #b5b5b5;
+                                li{
+                                    margin: 0 0 11px 0;
+                                    position: relative;
+                                    label{       
+                                        color: #333;                                 
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                        display: flex;
+                                        span{
+                                            display: flex;
+                                            align-items: center;
+                                            width: 130px;
+                                            height: 40px;
+                                        }
+                                        input[type='text']{
+                                            position: absolute;
+                                            left: 0;
+                                            top: 50%;
+                                            transform: translateY(-50%);
+                                            width: 810px;
+                                            height: 40px;
+                                            margin: 0 0 0 130px;
+                                            padding: 0 11px;
+                                            border: 1px solid #d5d5d5;
+                                        }
+                                        textarea{
+                                            position: absolute;
+                                            left: 0;
+                                            top: 0;
+                                            width: 810px;
+                                            height: 300px;
+                                            margin: 0 0 0 130px;
+                                            resize: none;
+                                            padding: 11px;
+                                            border: 1px solid #d5d5d5;
+                                        }
+                                        input[type='file']{
+                                            width: 0;
+                                        }                                       
+                                    }
+                                    .file-add{
+                                        color: #333;                                 
+                                        font-size: 15px;
+                                        font-weight: 700;
+                                        display: flex;
+                                        span{
+                                            display: flex;
+                                            align-items: center;
+                                            width: 130px;
+                                            height: 40px;
+                                        }
+                                        .img-add{
+                                            position: relative;
+                                            label{
+                                                margin:  0 6px 0 0;
+                                                figure{
+                                                   
+                                                    display: block;
+                                                    width: 78px;
+                                                    height: 78px;
+                                                    background: #f8f8f8 url(../../../../../public/img/service/file_img_icon_plus.png)no-repeat 50% 50%;
+                                                    border: 1px solid #e5e5e5;
+                                                    img{
+                                                        width: 100%;
+                                                        height: 100%;
+                                                    }
+                                                    
+                                                }
+                                            } 
+                                            span{
+                                                position: absolute;
+                                                display: block;
+                                                width: 20px;
+                                                height: 20px;
+                                                top: 0;
+                                                right: 6px;
+                                                border: 1px solid #e5e5e5;
+                                                background: #fff url(../../../../../public/img/service/file_img_icon_remove.png)no-repeat 50% 50%;
+                                            } 
+                                        }
+                                        
+                                    }
+                                    &:nth-child(2){
+                                        height: 300px;
+                                    }
+                                }
+                            }
+                            .btn-box{
+                                width: 100%;
+                                text-align: center;
+                                button{
+                                    width: 200px;
+                                    height: 60px;
+                                    border: 0;
+                                    background: #a5a5a5;
+                                    color: #fff;
+                                    transition: all 0.3s;
+                                    &:hover{
+                                        background-color: #111;
+                                    }
+                                    &:nth-child(2){
+                                        background-color: #111;
+                                        margin: 0 0 0 10px;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                    .detail-content{
+                        width: 100%;
+                        margin: 16px 0 0 0;
+                        .content-head{
+                            width: 100%;
+                            ul{
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                padding: 0 20px;
+                                height: 90px;
+                                border-top: 2px solid #000;
+                                border-bottom: 1px solid #e5e5e5;
+                                li{
+                                    font-size: 20px;
+                                    color: #000;
+                                    display: flex;
+                                    i{
+                                        display: flex;
+                                        align-items: center;
+                                        margin: 0 10px;
+                                    }
+                                    
+                                    &:nth-child(2){
+                                        font-size: 15px;
+                                        color: #666;
+                                    }
+                                }
+                            }
+                        }
+                        .content-main{
+                            min-height: 380px;
+                            p{
+                                padding: 40px 20px;
+                                color: #000;
+                                font-size: 15px;
+                                line-height: 1.8;
+                                white-space: pre-line,
+                            }
+                        }
+                        .content-footer{
+                            border-top:1px solid #b5b5b5;
+                            border-bottom:1px solid #b5b5b5;
+                            .row{
+                                padding: 17px 20px;
+                                ul{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    li{
+                                        font-size: 15px;
+                                        color: #666;
+                                        line-height: 1.3;
+                                        a{
+                                            color: #000;
+                                        }
+                                        &:first-child{
+                                            padding: 0 20px;
+                                            position: relative;
+                                            &::after{
+                                                content: '';
+                                                position: absolute;
+                                                left: 0;
+                                                top: 50%;
+                                                transform: translateY(-50%);
+                                                border-left: 5px solid transparent;
+                                                border-right: 5px solid transparent;
+                                            }
+                                        }
+
+                                    }
+                                }
+                                &:nth-child(1){
+                                    border-bottom: 1px solid #e5e5e5;
+                                }
+                            }
+                            .row1{
+                                ul{
+                                    li{
+                                        &:first-child{
+                                            &::after{
+                                                border-bottom: 5px solid #000;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .row2{
+                                ul{
+                                    li{
+                                        &:first-child{
+                                            &::after{
+                                                border-top: 5px solid #000;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-box{
+                            margin: 50px 0 0 0;
+                                width: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                
+                                button{
+                                    width: 160px;
+                                    height: 60px;
+                                    border: 0;
+                                    background: #fff;
+                                    color: #333;
+                                    transition: all 0.3s;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    border: 1px solid #333;
+                                    &:hover{
+                                        background-color: #000;
+                                        color: #fff;
+                                    }
+                                }
+                                .left-btn{
+                                    button{
+                                        &:nth-child(1){
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                }
+                                .right-btn{
+                                    button{
+                                        background: #333;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                    }
+                    .faq-content{                        
+                        .search-box{
+                            margin: 21px 0 0 0;
+                            height: 120px;
+                            border-top: 2px solid #000;
+                            border-bottom: 1px solid #d5d5d5;
+                            padding: 40px;
+                            background: #f8f8f8;
+                            display: flex;
+                            align-items: center;
+                            label{
+                                color: #000;
+                                font-size: 15px;
+                                font-weight: 500;
+                                input{
+                                    cursor: auto;
+                                    border: 1px solid #d5d5d5;
+                                    padding: 0 10px;
+                                    margin: 0 0 0 50px;
+                                    width: 672px;
+                                    height: 38px;
+                                }
+                            }
+                            button{
+                                margin: 0 0 0 5px;
+                                width: 110px;
+                                height: 38px;
+                                background: #000;
+                                font-size: 13px;
+                                color: #fff;
+                                border: 0;
+                                border-radius: 2px;
+                            }
+                        }
+                        .nav-box{
+                            margin: 40px 0 20px 0;
+                            table{
+                                width: 100%;
+                                border-collapse: collapse;
+                                tbody{
+                                    tr{
+                                        td{
+                                            width: 16.6666%;
+                                            height: 48px;
+                                            border: 1px solid #d5d5d5;
+                                            a{
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 100%;
+                                                height: 100%;
+                                                transition: all 0.3s;
+                                                &.on,&:hover{
+                                                    background: #000;
+                                                    color: #fff;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }                            
+                        }
+                        .list-box{
+                            h3{
+                                font-size: 15px;
+                                color: #000;
+                                font-weight: 500;
+                            }
+                            ul{
+                                margin: 16px 0 0 0;
+                                border-top: 2px solid #000;
+                                li{                  
+                                    overflow: hidden; 
+                                    border-bottom: 1px solid #b5b5b5;                 
+                                    .list-front{
+                                        cursor: pointer;
+                                        padding: 25px 57px;
+                                        height: 2px;
+                                        height: 70px;  
+                                        position: relative;                                      
+                                        h2{
+                                            font-size: 15px;
+                                            color: #000;
+                                            font-weight: 500;
+                                        }
+                                        span{
+                                            display: block;
+                                            width: 26px;
+                                            height: 26px;
+                                            overflow: hidden;
+                                            position: absolute;
+                                            left: 15px;
+                                            top: 50%;
+                                            transform: translatey(-50%);
+                                        }
+                                    }                                        
+                                    
+                                    .list-back{
+                                        background: #f8f8f8;
+                                        color: #333;
+                                        padding: 0 66px;
+                                        height: 0;
+                                        transition: all 0.3s;
+                                        line-height: 1.4;
+                                        position: relative; 
+                                        span{
+                                            display: block;
+                                            width: 26px;
+                                            height: 26px;
+                                            overflow: hidden;
+                                            position: absolute;
+                                            left: 25px;
+                                            top: 22px;
+                                            img{
+                                                transform: translateX(-26px);
+                                            }
+                                        }
+                                        
+                                    }
+                                    &.on{
+                                        .list-back{
+                                            padding: 25px 66px;
+                                            height: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+    }
+}

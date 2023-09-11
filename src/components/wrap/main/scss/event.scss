@@ -1,0 +1,129 @@
+#event {
+	width: 100%;
+	font-family: 'Montserrat';
+	.wrap {
+		width: 100%;
+		.container {
+			width: 100%;
+			.gap {
+				width: 1200px;
+				margin: 0 auto;
+				.main-page {
+					width: 1200px;					
+					padding-bottom: 150px;
+					.mini-title {
+						width: 100%;
+						height: 60px;
+						display: flex;
+						.teell {
+							width: 12px;
+							height: 11px;
+							overflow: hidden;
+							margin-right: 7px;
+							align-items: center;
+							display: flex;
+							margin-top: 24px;
+						}
+						span {
+							font-size: 13px;
+							color: rgb(153, 153, 153);
+							margin-right: 7px;
+							align-items: center;
+							display: flex;
+						}
+						.black {
+							font-size: 13px;
+							color: rgb(0, 0, 0);
+							margin-right: 7px;
+							align-items: center;
+							display: flex;
+							font-weight: 600;
+						}
+					}
+					.title {
+						width: 100%;
+						display: flex;
+						justify-content: center;
+						color: black;
+						font-size: 38px;
+						font-weight: 600;
+						margin-bottom: 40px;
+						margin-top: 20px;
+					}
+					.content {
+						width: 100%;
+						.tebox {
+							width: 100%;
+							padding: 0 0 70px 0;
+							.thbox {
+								width: 100%;
+								display: flex;
+								.block {
+									width: 388px;
+									height: 768px;
+									padding-bottom: 70px;
+									margin-right: 18px;
+                                    margin-top: 87px;
+									.pbox {
+										width: 355px;
+										height: 500px;
+										img {
+											margin-bottom: 24px;
+										}
+									}
+									.tbox {
+										height: 71px;										
+										padding: 0 10px;
+										font-size: 22px;
+										font-weight: 700;
+										font-family: 'Noto Sans KR';
+									}
+									.sbox {
+										padding: 0 10px;
+										margin-top: 14px;
+										font-size: 16px;
+										color: #666666;
+										font-weight: 600;
+										img {
+											margin-right: 6px;
+										}
+										span {
+										}
+									}
+									.dbox {
+
+										.pic3-box {
+											margin: 22px 10px 0 10px;
+											padding-top: 15px;
+											border-top: 0.8px solid #eeeeee;
+                                            display: flex;
+                                            justify-content: space-between;
+											img {                                               
+											}
+										}
+									}
+								}
+							}
+						}
+                  
+                        display: block;
+                        .page-page {
+                            width: 100%;                            
+                            display: flex;
+                            justify-content: center;
+                            border-top: 0.8px solid #aaaaaa;
+                            padding-top: 44px;
+                            .btn-box button {
+                                width: 26px;
+                                height: 26px;
+                                margin: 0px 2px;
+                            }
+                        }
+                      
+
+					}
+				}
+			}
+		}
+	}
+}

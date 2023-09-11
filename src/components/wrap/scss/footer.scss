@@ -1,0 +1,358 @@
+#footer {
+	width: 100%;
+	font-family: 'Montserrat';
+	height: 358px;
+	.wrap {
+		width: 100%;
+		.container {
+			width: 100%;
+            background-color: rgb(229, 229, 229);
+			.gap {
+				width: 1200px;
+				margin: 0 auto;
+				height: 50px;
+				.content {
+					width: 100%;
+					height: 50px;
+					.box1 {
+						width: 100%;
+						display: flex;
+						height: 50px;
+						background-color: rgb(229, 229, 229);
+						.Lbox {
+							width: 722px;
+							height: 50px;
+							display: flex;
+							align-items: center;
+							.box1L1 {
+								font-size: 14px;
+								color: rgb(51, 51, 51);
+							}
+							.box1L2 {
+								font-size: 14px;
+								color: rgb(51, 51, 51);
+								margin-left: 37px;
+							}
+							.box1L3 {
+								font-size: 14px;
+								color: rgb(153, 153, 153);
+								margin-left: 7px;
+							}
+							.box1L4 {
+								font-size: 13px;
+								color: rgb(153, 153, 153);
+								margin-left: 7px;
+								font-weight: 600;
+							}
+						}
+						.Rbox {
+							width: 478px;
+							height: 50px;
+							display: flex;
+							align-items: center;
+							.box1R1 {
+								height: 50px;
+								font-size: 14px;
+								font-weight: 500;
+								margin-right: 30px;
+								display: flex;
+								align-items: center;
+								&>a {
+									font-size: 14px;
+									color: rgb(51, 51, 51);
+								}
+							}
+							.box1R2 {
+								height: 50px;
+								font-size: 13px;
+								font-weight: 500;
+								margin-right: 20px;
+								display: flex;
+								align-items: center;
+								&>a {
+									font-size: 14px;
+									color: rgb(0, 0, 0);
+									text-decoration-line: underline;
+								}
+							}
+							.box1R3 {
+								height: 50px;
+								font-size: 14px;
+								margin-right: 21px;
+								display: flex;
+								align-items: center;
+								&>a {
+									font-size: 30px;
+									color: rgb(0, 0, 0);
+								}
+							}
+							.box1R4 {
+								height: 14px;
+								color: rgb(51, 51, 51);
+								margin-right: 21px;
+							}
+							.box1R5 {
+								height: 14px;
+								color: rgb(0, 0, 0);
+								margin-right: 35px;
+							}
+							.box1R6 {
+								height: 50px;
+								font-size: 14px;
+								color: rgb(0, 0, 0);
+								display: flex;
+								align-items: center;
+								.teel {
+									width: 18px;
+									height: 18px;
+									overflow: hidden;
+								}
+							}
+						}
+					}
+					.box2 {
+						width: 100%;
+						display: flex;
+						padding-top: 35px;
+						.box21 {
+							width: 722px;
+							.box211 {
+								height: 30px;
+								margin-bottom: 10px;
+								img {
+									height: 30px;
+								}
+							}
+							.box212 {
+								margin-bottom: 20px;
+								.box2121 {
+									font-size: 13px;
+									color: #999999;
+									height: 23px;
+									letter-spacing: -1px;
+									span {
+										margin: 0 7px;
+									}
+								}
+								.box2122 {
+									font-size: 13px;
+									color: #999999;
+									height: 23px;
+									letter-spacing: -1px;
+									span {
+										margin: 0 7px;
+									}
+								}
+								.box2123 {
+									font-size: 13px;
+									color: #999999;
+									height: 23px;
+									letter-spacing: -1px;
+									span {
+										margin: 0 7px;
+									}
+								}
+							}
+							.box213 {
+								.box2131 {
+									margin-bottom: 7px;
+									letter-spacing: -1px;
+									a {
+										font-size: 13px;
+										color: rgb(102, 102, 102);
+										height: 23px;
+										letter-spacing: -1px;
+									}
+									span {
+										margin: 0 7px;
+										color: #999999;
+										font-size: 10px;
+										height: 23px;
+										letter-spacing: -1px;
+									}
+								}
+								.box2132 {
+									margin-bottom: 7px;
+									letter-spacing: -1px;
+									a {
+										font-size: 13px;
+										color: rgb(102, 102, 102);
+										height: 23px;
+										letter-spacing: -1px;
+									}
+									span {
+										margin: 0 7px;
+										color: #999999;
+										font-size: 10px;
+										height: 23px;
+										letter-spacing: -1px;
+									}
+								}
+							}
+						}
+						.box22 {
+							width: 161px;
+							.ultitle {
+								width: 161px;
+								font-size: 14px;
+								font-weight: 600;
+								margin-bottom: 20px;
+							}
+							ul {
+								width: 161px;
+								font-size: 14px;
+								li {
+									width: 161px;
+									font-size: 13px;
+									color: #666666;
+									margin: 10px 0;
+								}
+							}
+						}
+						.box23 {
+							width: 155px;
+							.ultitle {
+								width: 155px;
+								font-size: 14px;
+								font-weight: 600;
+								margin-bottom: 20px;
+							}
+							ul {
+								width: 155px;
+								font-size: 14px;
+								li {
+									width: 155px;
+									font-size: 13px;
+									color: #666666;
+									margin: 10px 0;
+								}
+							}
+						}
+						.box24 {
+							width: 161px;
+							.ultitle {
+								width: 155px;
+								font-size: 14px;
+								font-weight: 600;
+								margin-bottom: 20px;
+							}
+							ul {
+								display: flex;
+								li {
+									margin-top: 15px;
+									margin-right: 5px;
+									.teel1 {
+										width: 35.3px;
+										height: 35px;
+										overflow: hidden;
+										position: relative;
+										.imgw {
+											position: absolute;
+											left: -35px;
+										}
+										.imgx {
+											position: absolute;
+											left: -70px;
+										}
+										.imgy {
+											position: absolute;
+											left: -105px;
+										}
+										.imgz {
+											position: absolute;
+										}
+									}
+								}
+							}
+						}
+					}
+					.box3 {
+						margin-top: 25px;
+						border-top: 0.8px solid #eeeeee;
+						padding: 25px 0;
+						display: flex;
+						.box31 {
+							width: 50%;
+							p {
+								font-size: 12px;
+								color: #C5C5C5;
+								margin-bottom: 10px;
+							}
+						}
+						.box32 {
+							display: flex;
+							.teela {
+								width: 80px;
+								overflow: hidden;
+								margin-right: 20px;
+							}
+							.teelb {
+								width: 110px;
+								overflow: hidden;
+								margin-right: 20px;
+								position: relative;
+								img {
+									position: absolute;
+									left: -175px;
+								}
+							}
+							.teelc {
+								width: 33px;
+								overflow: hidden;
+								margin-right: 20px;
+								position: relative;
+								img {
+									position: absolute;
+									left: -100px;
+								}
+							}
+							.teeld {
+								width: 33px;
+								overflow: hidden;
+								margin-right: 20px;
+								position: relative;
+								img {
+									position: absolute;
+									left: -138px;
+								}
+							}
+							.teele {
+								width: 44px;
+								overflow: hidden;
+								margin-right: 20px;
+								position: relative;
+								img {
+									position: absolute;
+									left: -50px;
+								}
+							}
+							.teelf {
+								width: 46px;
+								overflow: hidden;
+								margin-right: 7px;
+								position: relative;
+								img {
+									position: absolute;
+								}
+							}
+							.teelg {
+								.p1 {
+									color: #999999;
+									font-size: 10px;
+									letter-spacing: -1px;
+									margin-bottom: 5px;
+									padding-top: 11px;
+								}
+								.p2 {
+									color: #999999;
+									font-size: 10px;
+									letter-spacing: -1px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+    "mds_pick_crocs":[
+        {"product_code":"PRODUCT_I0039", "src":"./img/intro/intro_sec5_1_1.jpg", "title":"크록스", "info":"브루클린 로우 웨지 우먼스", "product_price":"79,900", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0040", "src":"./img/intro/intro_sec5_1_2.jpg", "title":"크록스", "info":"브루클린 버클 로우 웨지", "product_price":"", "cost_price":"84,900", "discount_price":"67,000", "discount_rate":"21", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0041", "src":"./img/intro/intro_sec5_1_3.jpg", "title":"크록스", "info":"브루클린 버클 로우 웨지", "product_price":"", "cost_price":"84,900", "discount_price":"67,000", "discount_rate":"21", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0042", "src":"./img/intro/intro_sec5_1_4.jpg", "title":"크록스", "info":"브루클린 스트래피 로우 웨지", "product_price":"84,900", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0043", "src":"./img/intro/intro_sec5_1_5.jpg", "title":"크록스", "info":"브루클린 스트래피 로우 웨지", "product_price":"84,900", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"}
+    ],
+    "mds_pick_slide":[
+        {"product_code":"PRODUCT_I0044", "src":"./img/intro/intro_sec5_2_1.jpg", "title":"나이키", "info":"나이키 빅토리 원 슬라이드", "product_price":"39,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0045", "src":"./img/intro/intro_sec5_2_2.jpg", "title":"아디다스", "info":"알파바운스 슬라이드 2.0", "product_price":"59,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0046", "src":"./img/intro/intro_sec5_2_3.jpg", "title":"뉴발란스", "info":"SD1501BB3", "product_price":"59,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0047", "src":"./img/intro/intro_sec5_2_4.jpg", "title":"뉴발란스", "info":"SD1501BK3", "product_price":"59,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0048", "src":"./img/intro/intro_sec5_2_5.jpg", "title":"뉴발란스", "info":"SD1501WT3", "product_price":"59,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"}
+    ],
+    "mds_pick_mule":[
+        {"product_code":"PRODUCT_I0049", "src":"./img/intro/intro_sec5_3_1.jpg", "title":"나이키", "info":"우먼스 나이키 코트 레거시 뮬", "product_price":"69,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0050", "src":"./img/intro/intro_sec5_3_2.jpg", "title":"휠라", "info":"코트 라이트 뮬", "product_price":"55,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0051", "src":"./img/intro/intro_sec5_3_3.jpg", "title":"휠라", "info":"코트 라이트 뮬", "product_price":"55,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0052", "src":"./img/intro/intro_sec5_3_4.jpg", "title":"휠라", "info":"클래식 킥스 B 뮬 v3", "product_price":"45,000", "cost_price":"", "discount_price":"", "discount_rate":"", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0053", "src":"./img/intro/intro_sec5_3_5.jpg", "title":"푸마", "info":"바리 뮬 벨크로", "product_price":"", "cost_price":"49,000", "discount_price":"39,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"}
+    ],
+    "mds_pick_zaxy":[
+        {"product_code":"PRODUCT_I0054", "src":"./img/intro/intro_sec5_4_1.jpg", "title":"작시", "info":"펄사 샌들 FEM", "product_price":"", "cost_price":"60,000", "discount_price":"19,000", "discount_rate":"68", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0055", "src":"./img/intro/intro_sec5_4_2.jpg", "title":"작시", "info":"펄사 샌들 FEM", "product_price":"", "cost_price":"60,000", "discount_price":"19,000", "discount_rate":"68", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0056", "src":"./img/intro/intro_sec5_4_3.jpg", "title":"작시", "info":"웨이 파페트 샌드 (FEMALE)", "product_price":"", "cost_price":"69,000", "discount_price":"55,000", "discount_rate":"20", "best":"", "coupon":"", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0057", "src":"./img/intro/intro_sec5_4_4.jpg", "title":"작시", "info":"프리마베라 파페트 AD", "product_price":"", "cost_price":"75,000", "discount_price":"60,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"},
+        {"product_code":"PRODUCT_I0058", "src":"./img/intro/intro_sec5_4_5.jpg", "title":"작시", "info":"프리마베라 파페트 AD", "product_price":"", "cost_price":"75,000", "discount_price":"60,000", "discount_rate":"20", "best":"", "coupon":"쿠폰", "only":"", "delivery":"아트배송"}
+    ]
+}

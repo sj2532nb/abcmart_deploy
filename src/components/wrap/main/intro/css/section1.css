@@ -1,0 +1,167 @@
+#section1 {
+  width: 100%;
+}
+#section1 .container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+#section1 .container .gap {
+  width: 100%;
+}
+#section1 .container .gap .content {
+  width: 100%;
+  position: relative;
+}
+#section1 .container .gap .content .slide-container {
+  width: 100%;
+  height: 600px;
+}
+#section1 .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide:nth-child(1) {
+  opacity: 1;
+  z-index: 3;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide:nth-child(2) {
+  opacity: 1;
+  z-index: 2;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide a {
+  position: relative;
+  display: block;
+  pointer-events: none;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide a img {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide a .title-box {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  width: 1200px;
+  margin: 0 0 0 -600px;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide a .title-box strong {
+  display: block;
+  font-size: 56px;
+  line-height: 75px;
+  max-width: 420px;
+  max-height: 150px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -2px;
+  animation: mainSlideTitle 0.25s 0.7s;
+  transition: opacity 0.25s;
+}
+#section1 .container .gap .content .slide-container .slide-view .slide-wrap .slide a .title-box span {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 460px;
+  max-height: 60px;
+  line-height: 60px;
+  color: #fff;
+  animation: mainSlideTitle 0.25s 0.8s;
+  transition: opacity 0.25s;
+}
+#section1 .container .gap .content .page-box {
+  z-index: 9;
+  position: absolute;
+  bottom: 0;
+  right: 19%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+}
+#section1 .container .gap .content .page-box .pagenation {
+  width: 82px;
+  height: 100%;
+  line-height: 48px;
+  text-align: center;
+  background: #fff;
+  font-size: 14px;
+  color: #999;
+}
+#section1 .container .gap .content .page-box .pagenation .current-page {
+  color: #000;
+  font-weight: 700;
+}
+#section1 .container .gap .content .page-box .pagenation i {
+  margin: 0 3px;
+  font-weight: 500;
+}
+#section1 .container .gap .content .page-box .pagenation .total-page {
+  font-weight: 500;
+}
+#section1 .container .gap .content .page-box button {
+  height: 100%;
+  background: #fff url() no-repeat 0 0;
+  border: 0;
+  cursor: pointer;
+}
+#section1 .container .gap .content .page-box button.prev-btn {
+  width: 22px;
+  background: #fff url(../../../../../../public/img/intro/abc_main_banner_btn_control.png) no-repeat 0 50%;
+}
+#section1 .container .gap .content .page-box button.next-btn {
+  width: 50px;
+  background: #fff url(../../../../../../public/img/intro/abc_main_banner_btn_control.png) no-repeat -13px 50%;
+}
+#section1 .container .gap .content .page-box button.stop-btn {
+  width: 48px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+#section1 .container .gap .content .page-box button.stop-btn::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 22px;
+  height: 22px;
+  background: url(../../../../../../public/img/intro/abc_main_banner_btn_control.png) no-repeat 100% 50%;
+}
+#section1 .container .gap .content .page-box button.stop-btn.on {
+  display: none;
+}
+#section1 .container .gap .content .page-box button.play-btn {
+  width: 48px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+#section1 .container .gap .content .page-box button.play-btn::after {
+  content: "";
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 22px;
+  height: 22px;
+  background: url(../../../../../../public/img/intro/abc_main_banner_btn_control.png) no-repeat 60% 50%;
+}
+#section1 .container .gap .content .page-box button.play-btn.on {
+  display: block;
+}

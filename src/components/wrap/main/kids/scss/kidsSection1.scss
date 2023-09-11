@@ -1,0 +1,267 @@
+#kidsSection1{
+    padding: 34px 0 0 0;
+    width: 100%;
+    .container{
+        width: 100%;
+        .gap{
+            width: 100%;
+            .title{
+                width: 290px;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                }
+            }
+            .content{
+                width: 1200px;
+                margin: 60px auto 0  auto;
+                .market-change{
+                    width: 100%;
+                    border-top: 1px solid #EEEEEE;
+                    ul{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        li{   
+                            position: relative;                         
+                            a{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 240px;
+                                height: 75px;   
+                                color: #ccc;                             
+                                font-size: 20px;
+                                font-weight: 700;
+                            }
+                             &:nth-child(1){
+                                &.on{
+                                    a{
+                                        color: #DE0F1A;
+                                    } 
+                                }       
+                            }
+                            &:nth-child(2){
+                                &.on{
+                                    a{
+                                        color: #85C55B;
+                                    } 
+                                }                                  
+                            }
+                            &:nth-child(1){
+                                &::before{
+                                    content: "";
+                                    display: block;
+                                    position: absolute;
+                                    top: 23px;
+                                    right: 0;
+                                    width: 1px;
+                                    height: 22px;
+                                    background: #EEE;
+                                }
+                            }                            
+                        }
+                    }
+                }
+                .nav-box{
+                    width: 100%;
+                    background: #FAFAFA;
+                    border-top: 1px solid #EEEEEE;
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        li{
+                            position: relative;
+                            a{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 115px;
+                                height: 60px;
+                            }
+                            &::before{
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                top: 20px;
+                                right: 0;
+                                width: 1px;
+                                height: 20px;
+                                background: #EEE;
+                            }
+                            &:last-child{
+                                &::before{
+                                    display: none;
+                                }
+                                
+                            }
+                        }
+                    }
+                    
+                }
+                .slide-box{
+                    width: 100%;
+                    position: relative;
+                    .slide-view{
+                        width: 100%;
+                        overflow: hidden;
+                        .slide-wrap{
+                            position: relative;
+                            width: 300%;    
+                            display: flex;   
+                            margin-left: -100%;            
+                            .slide{
+                                width: 100%;
+                                
+                                a{
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .btn-box{
+                        position: absolute;
+                        bottom: 40px;
+                        right: 40px;
+                        width: 130px;
+                        height: 50px;
+                        display: flex;
+                        border-radius: 40px;
+                        background: #fff;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 15px 20px;
+                        a{
+                            display: flex;
+                            align-items: center;
+                            width: 8px;
+                            height: 12px;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        span{
+                            font-size: 16px;
+                            color: #000;
+                        }
+                    }
+                }
+                .list-category{
+                    margin: 80px 0 0 0;
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        li{
+                            width: 260px;
+                            height: 260px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            background: #E84D25;
+                            margin: 0 10px;
+                            a{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 100%;
+                                height: 100%;
+                                img{
+                                    width: 90px;
+                                }
+                            }
+                            &:nth-child(2){
+                                background-color: #272CCC;
+                            }
+                            &:nth-child(3){
+                                background-color: #F1DB1A;
+                            }
+                        }
+                    }
+                }
+                .special-brand{
+                    width: 1000px;
+                    margin: 80px auto 160px auto;
+                    .special-brand-title{
+                        margin: 0 0 40px 0;
+                        display: flex;
+                        align-items: center;
+                        figure{
+                            width: 332px;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                        span{
+                            display: block;
+                            margin-left: 20px;
+                            padding-top: 15px;
+                            height: auto;
+                            color: #000;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 1.4;
+                        }
+                    }
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        li{
+                            width: 190px;
+                            height: 156px;
+                            margin: 0 12px 0 0;
+                            &:last-child{
+                                margin: 0;
+                            }
+                            .img-box{
+                                position: relative;
+                                width: 100%;
+                                height: 100%;
+                                overflow: hidden;
+                                border-radius: 20px;
+                                figure{
+                                    img{
+                                        width: 100%;
+                                        transition: all 0.3s;                                        
+                                    }
+                                }
+                                &:hover{                                    
+                                    figure{
+                                        img{
+                                            transform: scale(1.2);
+                                        }
+                                    }
+                                }
+                                span{
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translate(-50%, -50%);
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                                &::after{
+                                    content: '';
+                                    position: absolute;
+                                    z-index: 1;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background: rgba(0,0,0,0.5);
+                                }
+                            }
+                            .txt-box{
+                                margin: 20px 0 0 0;
+                                text-align: center;
+                                h4{}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

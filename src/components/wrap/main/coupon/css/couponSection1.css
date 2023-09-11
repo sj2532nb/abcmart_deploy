@@ -1,0 +1,174 @@
+#couponSection1 {
+  width: 100%;
+  margin: 0 0 80px 0;
+}
+#couponSection1 .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#couponSection1 .container .gap {
+  width: 100%;
+}
+#couponSection1 .container .gap .title {
+  width: 100%;
+}
+#couponSection1 .container .gap .title .row1 {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+#couponSection1 .container .gap .title .row1 ul {
+  display: flex;
+}
+#couponSection1 .container .gap .title .row1 ul li {
+  padding: 0 0 0 10px;
+  display: flex;
+  align-items: center;
+}
+#couponSection1 .container .gap .title .row1 ul li:nth-child(1) {
+  padding: 0;
+}
+#couponSection1 .container .gap .title .row1 ul li span {
+  display: flex;
+  align-items: center;
+  width: 12px;
+  height: 11px;
+  overflow: hidden;
+  margin: 0 3px 0 0;
+  pointer-events: none;
+}
+#couponSection1 .container .gap .title .row1 ul li span img {
+  pointer-events: none;
+}
+#couponSection1 .container .gap .title .row1 ul li:nth-child(2) span img, #couponSection1 .container .gap .title .row1 ul li:nth-child(3) span img {
+  transform: translateX(-12px);
+}
+#couponSection1 .container .gap .title .row1 ul li a {
+  color: #999;
+  font-size: 13px;
+}
+#couponSection1 .container .gap .title .row1 ul li:nth-child(3) a {
+  color: #000;
+  font-weight: 500;
+}
+#couponSection1 .container .gap .title .row2 {
+  margin: 18px 0 0 0;
+  text-align: center;
+}
+#couponSection1 .container .gap .title .row2 h1 {
+  font-size: 32px;
+  color: #000;
+  font-weight: 700;
+}
+#couponSection1 .container .gap .content {
+  width: 100%;
+  margin: 44px 0 0 0;
+  display: flex;
+}
+#couponSection1 .container .gap .content .left {
+  position: relative;
+  width: 794px;
+}
+#couponSection1 .container .gap .content .left .slide-view .slide-wrap {
+  position: relative;
+}
+#couponSection1 .container .gap .content .left .slide-view .slide-wrap .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+#couponSection1 .container .gap .content .left .slide-view .slide-wrap .slide.on {
+  opacity: 1;
+}
+#couponSection1 .container .gap .content .left > a {
+  display: block;
+  width: 38px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #000;
+  overflow: hidden;
+}
+#couponSection1 .container .gap .content .left .left-arrow-btn {
+  left: 0;
+}
+#couponSection1 .container .gap .content .left .right-arrow-btn {
+  right: 0;
+}
+#couponSection1 .container .gap .content .left .right-arrow-btn img {
+  transform: translateX(-50%);
+}
+#couponSection1 .container .gap .content .left span {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#couponSection1 .container .gap .content .left span a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+#couponSection1 .container .gap .content .left span a.on {
+  background: #fff;
+}
+#couponSection1 .container .gap .content .right {
+  width: 388px;
+  height: 388px;
+  margin: 0 0 0 18px;
+  padding: 45px 24px;
+  text-align: center;
+  border: 6px solid #e5e5e5;
+}
+#couponSection1 .container .gap .content .right dl dt {
+  position: relative;
+  padding: 0 38px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 22px 0;
+  text-align: left;
+}
+#couponSection1 .container .gap .content .right dl dt span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+#couponSection1 .container .gap .content .right dl dd {
+  position: relative;
+  padding: 7px 21px;
+  font-size: 15px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+#couponSection1 .container .gap .content .right dl dd strong {
+  color: #ee1c25;
+  font-weight: 600;
+}
+#couponSection1 .container .gap .content .right dl dd span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+#couponSection1 .container .gap .content .right button {
+  width: 100%;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  margin: 17px 0 0 0;
+}
